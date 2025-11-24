@@ -22,8 +22,7 @@ Certaines exercices utilisent des **mots stylés** (couleur, gras, italique…) 
 Pour les distinguer correctement, nous avons ajouté une étape **Text/Style Map**.
 
 En ajoutant cette étape, on a constaté que **l’extraction globale s’améliore nettement**.  
-Les prompts Gemini sont encore en phase d’optimisation (non finaux),  
-mais **le pipeline est pratiquement stabilisé**.
+**Les prompts Gemini sont encore en phase d’optimisation (non finaux)**,
 
 ---
 
