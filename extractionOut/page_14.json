@@ -1,0 +1,32 @@
+[
+  {
+    "id": "p14_ex1",
+    "type": "exercise",
+    "images": false,
+    "image_type": "none",
+    "properties": {
+      "number": "1",
+      "instruction": "Recopie uniquement les verbes\nde la liste.",
+      "labels": [],
+      "statement": "fleur\nrouler\nrester\nfleurir\nboule\nrestaurant\nrepas\nchemin\nhabit\ntable\ntraverser\nhabiter\nmanger\nvolet\nballon",
+      "hint": null,
+      "example": null,
+      "references": null
+    }
+  },
+  {
+    "id": "p14_ex2",
+    "type": "exercise",
+    "images": false,
+    "image_type": "none",
+    "properties": {
+      "number": "2",
+      "instruction": "Recopie les phrases puis entoure\nle verbe en rouge.",
+      "labels": [],
+      "statement": "a. Lara entre dans la pièce.\nb. Nous bondissons hors de la voiture.\nc. Elle pose ses lunettes de soleil sur la\ntable.\nd. Tu téléphones à Mehdi.\ne. Il taille son crayon de couleur.\nf. Le train partira à l’heure.",
+      "hint": null,
+      "example": null,
+      "references": null
+    }
+  }
+]

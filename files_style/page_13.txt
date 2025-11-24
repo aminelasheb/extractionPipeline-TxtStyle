@@ -1,0 +1,75 @@
+phrase;font_family;size;color_hex;style_tag;overrides
+13;HypatiaSansPro;11;#ec008c;bold;
+GRAMMAIRE;FrankfurterSHOP;12;#ec008c;medium;
+2;HelveticaNeueLTStd;11.6767;#ffffff;regular;
+Réponds à chaque question;HypatiaSansPro;13;#231f20;bold;
+en choisissant la forme demandée :;HypatiaSansPro;13;#231f20;bold;
+affirmative ou négative.;HypatiaSansPro;13;#231f20;bold;
+a. Quand partons-nous ?;HypatiaSansPro;13;#231f20;regular;a.|HypatiaSansPro|13|#ec008c|bold
+(forme affirmative);HypatiaSansPro;13;#231f20;regular;
+▶ Nous ne partons pas.;HypatiaSansPro;13;#231f20;regular;▶|HypatiaSansPro|13|#ec008c|regular
+▶ Nous partons demain.;HypatiaSansPro;13;#231f20;regular;▶|HypatiaSansPro|13|#ec008c|regular
+b. À quelle heure se couche-t-il ?;HypatiaSansPro;13;#231f20;regular;b.|HypatiaSansPro|13|#ec008c|bold
+(forme négative);HypatiaSansPro;13;#231f20;regular;
+▶ Il se couche vers 20 heures.;HypatiaSansPro;13;#231f20;regular;▶|HypatiaSansPro|13|#ec008c|regular
+▶ Il ne se couche pas avant 20 heures.;HypatiaSansPro;13;#231f20;regular;▶|HypatiaSansPro|13|#ec008c|regular
+c. As-tu déjà vu des loups ?;HypatiaSansPro;13;#231f20;regular;c.|HypatiaSansPro|13|#ec008c|bold
+(forme négative);HypatiaSansPro;13;#231f20;regular;
+▶ Je n’ai jamais vu de loups.;HypatiaSansPro;13;#231f20;regular;▶|HypatiaSansPro|13|#ec008c|regular
+▶ J’ai déjà vu des loups.;HypatiaSansPro;13;#231f20;regular;▶|HypatiaSansPro|13|#ec008c|regular
+3;HelveticaNeueLTStd;11.6767;#ffffff;regular;
+Recopie les phrases à la forme;HypatiaSansPro;13;#231f20;bold;
+exclamative.;HypatiaSansPro;13;#231f20;bold;
+« La chienne du voisin a eu des petits ! »;HypatiaSansPro;13;#231f20;regular;
+dit Chloé. Chloé aimerait bien en avoir;HypatiaSansPro;13;#231f20;regular;
+un. Malheureusement, sa maman n’est pas;HypatiaSansPro;13;#231f20;regular;
+d’accord.;HypatiaSansPro;13;#231f20;regular;
+« Je n’ai pas envie d’avoir un chien ! Ça met;HypatiaSansPro;13;#231f20;regular;
+des poils partout et ça aboie ! »;HypatiaSansPro;13;#231f20;regular;
+Chloé n’abandonne pas. Le voisin invite sa;HypatiaSansPro;13;#231f20;regular;
+maman à venir voir les chiots : elle s’accroupit,;HypatiaSansPro;13;#231f20;regular;
+caresse un chiot.;HypatiaSansPro;13;#231f20;regular;
+« Ils sont mignons ! Bon, c’est d’accord, tu;HypatiaSansPro;13;#231f20;regular;
+peux en avoir un ! »;HypatiaSansPro;13;#231f20;regular;
+Un élève a souligné deux phrases.;HypatiaSansPro;13;#231f20;bold;
+Quelle était la consigne à ton avis ?;HypatiaSansPro;13;#231f20;bold;
+a. Il joue sur son ordinateur.;HypatiaSansPro;13;#231f20;regular;a.|HypatiaSansPro|13|#ec008c|bold||b.|HypatiaSansPro|13|#ec008c|bold
+b. Ce paysage est magnifique !;HypatiaSansPro;13;#231f20;regular;a.|HypatiaSansPro|13|#ec008c|bold||b.|HypatiaSansPro|13|#ec008c|bold||c.|HypatiaSansPro|13|#ec008c|bold
+c. Tu as oublié le pain.;HypatiaSansPro;13;#231f20;regular;b.|HypatiaSansPro|13|#ec008c|bold||c.|HypatiaSansPro|13|#ec008c|bold||d.|HypatiaSansPro|13|#ec008c|bold
+d. Je suis très inquiète !;HypatiaSansPro;13;#231f20;regular;c.|HypatiaSansPro|13|#ec008c|bold||d.|HypatiaSansPro|13|#ec008c|bold
+7;HelveticaNeueLTStd;11.6767;#ffffff;regular;
+Écris une phrase à la forme;HypatiaSansPro;13;#231f20;bold;
+affirmative pour le panneau 1 et;HypatiaSansPro;13;#231f20;bold;forme|HypatiaSansPro|13.1582|#231f20|bold||1|HypatiaSansPro|13.1582|#231f20|bold
+une phrase à la forme négative pour;HypatiaSansPro;13;#231f20;bold;
+le panneau 2 .;HypatiaSansPro;13;#231f20;bold;à|HypatiaSansPro|13.1582|#231f20|bold||2|HypatiaSansPro|13.1582|#231f20|bold
+Utiliser la forme affirmative;FrankfurterSHOP;11;#ffffff;medium;
+et la forme négative;FrankfurterSHOP;11;#ffffff;medium;
+4 Réponds à chaque question;HypatiaSansPro;13;#231f20;bold;4 |HelveticaNeueLTStd|11.6767|#ffffff|regular
+par une phrase à la forme affirmative,;HypatiaSansPro;13;#231f20;bold;
+puis à la forme négative.;HypatiaSansPro;13;#231f20;bold;
+Est-ce que tu m’accompagnes ?;HypatiaSansPro;12;#c40075;bold;
+➞ Oui, je t’accompagne.;HypatiaSansPro;12;#c40075;bold;
+➞ Non, je ne t’accompagne pas.;HypatiaSansPro;12;#c40075;bold;
+a. Aimes-tu le chocolat ?;HypatiaSansPro;13;#231f20;regular;a.|HypatiaSansPro|13|#ec008c|bold
+b. Sait-il nager ?;HypatiaSansPro;13;#231f20;regular;b.|HypatiaSansPro|13|#ec008c|bold
+c. L’eau est-elle froide ?;HypatiaSansPro;13;#231f20;regular;c.|HypatiaSansPro|13|#ec008c|bold
+5;HelveticaNeueLTStd;11.6767;#ffffff;regular;
+Écris correctement ces phrases à la;HypatiaSansPro;13;#231f20;bold;
+forme négative.;HypatiaSansPro;13;#231f20;bold;
+a. J’aime la soupe.;HypatiaSansPro;13;#231f20;regular;a.|HypatiaSansPro|13|#ec008c|bold
+b. Tu iras jamais sur la Lune.;HypatiaSansPro;13;#231f20;regular;b.|HypatiaSansPro|13|#ec008c|bold
+c. Nous montons à cheval.;HypatiaSansPro;13;#231f20;regular;c.|HypatiaSansPro|13|#ec008c|bold
+d. Elles ont dormi.;HypatiaSansPro;13;#231f20;regular;d.|HypatiaSansPro|13|#ec008c|bold
+e. Vous avez plus le temps.;HypatiaSansPro;13;#231f20;regular;e.|HypatiaSansPro|13|#ec008c|bold
+6 À l'oral;HypatiaSansPro;12;#a4258f;bold;6 |HelveticaNeueLTStd|11.6767|#ffffff|regular
+Réponds par une phrase;HypatiaSansPro;13;#231f20;bold;
+affirmative ou négative à chaque question;HypatiaSansPro;13;#231f20;bold;
+que te posera ton voisin.;HypatiaSansPro;13;#231f20;bold;
+a. As-tu des frères ?;HypatiaSansPro;13;#231f20;regular;que|HypatiaSansPro|13|#ec008c|bold||a.|HypatiaSansPro|13|#ec008c|bold
+b. As-tu déjà perdu une dent ?;HypatiaSansPro;13;#231f20;regular;b.|HypatiaSansPro|13|#ec008c|bold
+c. Sais-tu skier ?;HypatiaSansPro;13;#231f20;regular;c.|HypatiaSansPro|13|#ec008c|bold
+d. Crains-tu le froid ?;HypatiaSansPro;13;#231f20;regular;d.|HypatiaSansPro|13|#ec008c|bold
+1;HypatiaSansPro;10.5265;#231f20;bold;
+2;HypatiaSansPro;10.5265;#231f20;bold;
+9782210505377_001-144.indb 13;Helvetica;6;#000000;regular;
+28/03/2019 12:17;Helvetica;6;#000000;regular;

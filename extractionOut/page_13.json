@@ -1,0 +1,107 @@
+[
+  {
+    "id": "p13_ex2",
+    "type": "exercise",
+    "images": false,
+    "image_type": "none",
+    "properties": {
+      "number": "2",
+      "instruction": "Réponds à chaque question\nen choisissant la forme demandée :\naffirmative ou négative.",
+      "labels": [],
+      "statement": "a. Quand partons-nous ?\n(forme affirmative)\n▶ Nous ne partons pas.\n▶ Nous partons demain.\nb. À quelle heure se couche-t-il ?\n(forme négative)\n▶ Il se couche vers 20 heures.\n▶ Il ne se couche pas avant 20 heures.\nc. As-tu déjà vu des loups ?\n(forme négative)\n▶ Je n’ai jamais vu de loups.\n▶ J’ai déjà vu des loups.",
+      "hint": null,
+      "example": null,
+      "references": null
+    }
+  },
+  {
+    "id": "p13_exDéfi_langue",
+    "type": "exercise",
+    "images": false,
+    "image_type": "none",
+    "properties": {
+      "number": null,
+      "instruction": "Un élève a souligné deux phrases.\nQuelle était la consigne à ton avis ?",
+      "labels": [],
+      "statement": "a. Il joue sur son ordinateur.\nb. Ce paysage est magnifique !\nc. Tu as oublié le pain.\nd. Je suis très inquiète !",
+      "hint": null,
+      "example": null,
+      "references": null
+    }
+  },
+  {
+    "id": "p13_ex3",
+    "type": "exercise",
+    "images": true,
+    "image_type": "single",
+    "properties": {
+      "number": "3",
+      "instruction": "Recopie les phrases à la forme\nexclamative.",
+      "labels": [],
+      "statement": "« La chienne du voisin a eu des petits ! »\ndit Chloé. Chloé aimerait bien en avoir\nun. Malheureusement, sa maman n’est pas\nd’accord.\n« Je n’ai pas envie d’avoir un chien ! Ça met\ndes poils partout et ça aboie ! »\nChloé n’abandonne pas. Le voisin invite sa\nmaman à venir voir les chiots : elle s’accroupit,\ncaresse un chiot.\n« Ils sont mignons ! Bon, c’est d’accord, tu\npeux en avoir un ! »\n\n\\image{p13c0}",
+      "hint": null,
+      "example": null,
+      "references": null
+    }
+  },
+  {
+    "id": "p13_ex4",
+    "type": "exercise",
+    "images": false,
+    "image_type": "none",
+    "properties": {
+      "number": "4",
+      "instruction": "Réponds à chaque question\npar une phrase à la forme affirmative,\npuis à la forme négative.",
+      "labels": [],
+      "statement": "a. Aimes-tu le chocolat ?\nb. Sait-il nager ?\nc. L’eau est-elle froide ?",
+      "hint": null,
+      "example": "Est-ce que tu m’accompagnes ?\n➞ Oui, je t’accompagne.\n➞ Non, je ne t’accompagne pas.",
+      "references": null
+    }
+  },
+  {
+    "id": "p13_ex5",
+    "type": "exercise",
+    "images": false,
+    "image_type": "none",
+    "properties": {
+      "number": "5",
+      "instruction": "Écris correctement ces phrases à la\nforme négative.",
+      "labels": [],
+      "statement": "a. J’aime la soupe.\nb. Tu iras jamais sur la Lune.\nc. Nous montons à cheval.\nd. Elles ont dormi.\ne. Vous avez plus le temps.",
+      "hint": null,
+      "example": null,
+      "references": null
+    }
+  },
+  {
+    "id": "p13_ex6",
+    "type": "exercise",
+    "images": false,
+    "image_type": "none",
+    "properties": {
+      "number": "6",
+      "instruction": "À l'oral\nRéponds par une phrase\naffirmative ou négative à chaque question\nque te posera ton voisin.",
+      "labels": [],
+      "statement": "a. As-tu des frères ?\nb. As-tu déjà perdu une dent ?\nc. Sais-tu skier ?\nd. Crains-tu le froid ?",
+      "hint": null,
+      "example": null,
+      "references": null
+    }
+  },
+  {
+    "id": "p13_exJ_écris",
+    "type": "exercise",
+    "images": true,
+    "image_type": "composite",
+    "properties": {
+      "number": "7",
+      "instruction": "Écris une phrase à la forme\naffirmative pour le panneau 1 et\nune phrase à la forme négative pour\nle panneau 2 .",
+      "labels": [],
+      "statement": "\\image{p13c1}",
+      "hint": null,
+      "example": null,
+      "references": null
+    }
+  }
+]

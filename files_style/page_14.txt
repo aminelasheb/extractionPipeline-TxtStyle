@@ -1,0 +1,45 @@
+phrase;font_family;size;color_hex;style_tag;overrides
+14;HypatiaSansPro;11;#ec008c;bold;
+Reconnaître le verbe;FrankfurterSHOP;11;#ffffff;medium;
+1 Recopie uniquement les verbes;HypatiaSansPro;13;#231f20;bold;1 |HelveticaNeueLTStd|11.6767|#ffffff|regular||de||0|#000000|regular
+de la liste.;HypatiaSansPro;13;#231f20;bold;
+fleur;HypatiaSansPro;13;#231f20;regular;
+rouler;HypatiaSansPro;13;#231f20;regular;
+rester;HypatiaSansPro;13;#231f20;regular;
+fleurir;HypatiaSansPro;13;#231f20;regular;
+boule;HypatiaSansPro;13;#231f20;regular;
+restaurant;HypatiaSansPro;13;#231f20;regular;
+repas;HypatiaSansPro;13;#231f20;regular;
+chemin;HypatiaSansPro;13;#231f20;regular;
+habit;HypatiaSansPro;13;#231f20;regular;
+table;HypatiaSansPro;13;#231f20;regular;
+traverser;HypatiaSansPro;13;#231f20;regular;
+habiter;HypatiaSansPro;13;#231f20;regular;
+manger;HypatiaSansPro;13;#231f20;regular;
+volet;HypatiaSansPro;13;#231f20;regular;
+ballon;HypatiaSansPro;13;#231f20;regular;
+● Dans la phrase, le mot qui indique l’action que fait le personnage;HypatiaSansPro;13;#4352a3;bold;●|ZapfDingbatsStd|8|#4352a3|regular||l’action|HypatiaSansPro|13|#4352a3|black||que|HypatiaSansPro|13|#4352a3|black||fait|HypatiaSansPro|13|#4352a3|black||le|HypatiaSansPro|13|#4352a3|black||personnage|HypatiaSansPro|13|#4352a3|black
+ou ce qui se passe s’appelle le verbe .;HypatiaSansPro;13;#4352a3;black;ou|HypatiaSansPro|13|#4352a3|bold||s’appelle|HypatiaSansPro|13|#4352a3|bold||le|HypatiaSansPro|13|#4352a3|bold
+Lucie téléphone . Lucie sort de chez elle. Lucie court après le train.;HypatiaSansPro;13;#c40075;bold;téléphone. |HypatiaSansPro|13|#c40075|black||sort|HypatiaSansPro|13|#c40075|black||court|HypatiaSansPro|13|#c40075|black
+verbe;HypatiaSansPro;10;#4352a3;bold;
+verbe;HypatiaSansPro;10;#4352a3;bold;
+verbe;HypatiaSansPro;10;#4352a3;bold;
+● Le verbe change : on dit qu’ il se conjugue .;HypatiaSansPro;13;#4352a3;bold;●|ZapfDingbatsStd|8|#4352a3|regular||se|HypatiaSansPro|13|#4352a3|black||conjugue.|HypatiaSansPro|13|#4352a3|black
+Tu téléphones . Lucie a téléphoné . Nous téléphonerons .;HypatiaSansPro;13;#c40075;bold;téléphones. |HypatiaSansPro|13|#c40075|black||a|HypatiaSansPro|13|#c40075|black||téléphoné. |HypatiaSansPro|13|#c40075|black||téléphonerons. |HypatiaSansPro|13|#c40075|black
+● Observez ce qui se passe dans chaque dessin. Complétez chaque phrase;HypatiaSansPro;13;#231f20;bold;●|ZapfDingbatsStd|8|#8dc63f|regular
+par un mot.;HypatiaSansPro;13;#231f20;bold;
+● Quel est le rôle de ces mots ?;HypatiaSansPro;13;#231f20;bold;●|ZapfDingbatsStd|8|#8dc63f|regular
+2 Recopie les phrases puis entoure;HypatiaSansPro;13;#231f20;bold;2 |HelveticaNeueLTStd|11.6767|#ffffff|regular||le||0|#000000|regular
+le verbe en rouge.;HypatiaSansPro;13;#231f20;bold;
+a. Lara entre dans la pièce.;HypatiaSansPro;13;#231f20;regular;le|HypatiaSansPro|13|#ec008c|bold||a.|HypatiaSansPro|13|#ec008c|bold
+b. Nous bondissons hors de la voiture.;HypatiaSansPro;13;#231f20;regular;b.|HypatiaSansPro|13|#ec008c|bold
+c. Elle pose ses lunettes de soleil sur la;HypatiaSansPro;13;#231f20;regular;c.|HypatiaSansPro|13|#ec008c|bold
+table.;HypatiaSansPro;13;#231f20;regular;
+d. Tu téléphones à Mehdi.;HypatiaSansPro;13;#231f20;regular;d.|HypatiaSansPro|13|#ec008c|bold
+e. Il taille son crayon de couleur.;HypatiaSansPro;13;#231f20;regular;e.|HypatiaSansPro|13|#ec008c|bold
+f. Le train partira à l’heure.;HypatiaSansPro;13;#231f20;regular;f.|HypatiaSansPro|13|#ec008c|bold
+Lucie … .;CenturyStd;13.0034;#231f20;regular;
+Lucie … .;CenturyStd;13.0034;#231f20;regular;
+Lucie … .;CenturyStd;13.0034;#231f20;regular;
+9782210505377_001-144.indb 14;Helvetica;6;#000000;regular;
+28/03/2019 12:17;Helvetica;6;#000000;regular;
