@@ -98,7 +98,6 @@ if __name__ == "__main__":
 
 
     run_script("detectImages.py")
-
     run_script("cropImages.py")
     run_script("drawBoxes.py")
     run_script("extraction-gemini-vision.py")

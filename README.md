@@ -25,19 +25,76 @@ En ajoutant cette étape, on a constaté que **l’extraction globale s’améli
 Les prompts Gemini sont encore en phase d’optimisation (non finaux),  
 mais **le pipeline est pratiquement stabilisé**.
 
+---
+
+## Pré-requis
+
+- Python 3.10+  
+- Ghostscript installé (PDF → images)  
+- Clé API Gemini → fichier `apikey.txt` à la racine  
+- Poids YOLOv11x (`.pt`) dans `./detImages/`  
+
+
+---
+
+## Configuration
+
+Les dossiers et chemins sont centralisés dans `main.py` :
+
+* `pdf_path (main)` : PDF d’entrée
+* `files` : pages converties en images
+* `files_style` : texte/style d’une page (sortie PDFMiner)
+* `files_out` : images annotées avec les IDs des illustrations
+* `output` : détections YOLO + crops
+* `extractionOut` / `extractionOutStyle` : sorties finales
+
+> **À adapter selon ton environnement**.  
+
+---
+
+## Quickstart
+
+1. Déposer le PDF dans le main.
+2. Configurer :
+ - `ALL_PAGES`, `FIRST_PAGE`, `LAST_PAGE`
+ - `STYLE_MODE = True/False` (extraction-gemini-vision.py)
+3. Lancer :
+```
+
+python main.py
+
+````
+4. Récupérer les JSON :
+- `extractionOut/` (sans style)
+- `extractionOutStyle/` (avec style)
+
+---
+
 ## Sorties
 
-Possibilité en deux formats JSON (laisse l'utilisateur décider en Patty) :
+Possibilité en **deux formats JSON** (l’utilisateur choisit dans **Patty**) :
 
 ### 1. JSON **avec style**
 - `\bf{}`, `\it{}`, `\color{"txt",#HEX}`  
 - références images : `\image{id}`  
-- utilisé quand la mise en forme contient de l’information utile
+- utilisé quand la mise en forme contient une information importante  
+- activé via :
+```python
+STYLE_MODE = True
+````
 
 ### 2. JSON **sans style**
-- texte simplifié sans balises  
-- images toujours référencées avec `\image{id}`  
-- utilisé pour les traitements ne nécessitant pas la mise en forme
+
+* texte simplifié sans balises
+* images référencées avec `\image{id}`
+* préféré pour les traitements downstream simples
+* activé via :
+
+  ```python
+  STYLE_MODE = False
+  ```
+
+---
 
 ## Nouveau schéma JSON
 
