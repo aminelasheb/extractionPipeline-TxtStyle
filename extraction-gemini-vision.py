@@ -210,9 +210,10 @@ def process_image_file(client: genai.Client, image_path: str) -> None:
         return
 
     full_prompt = (
-        base_prompt
-        + "\n\n--- Related text content ---\n"
-        + side_text
+            base_prompt
+            + '\n\n--- { CSV input :  "\n'
+            + side_text
+            + '\n"}'
     )
 
     # =========================
