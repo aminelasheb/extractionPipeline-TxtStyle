@@ -3,7 +3,7 @@
   "INSTRUCTION": "You must output ONLY a JSON array compliant with the schema below. No markdown formatting, no comments.",
 
   "INPUT_DATA": {
-    "Image": "Textbook page (French). Use it to detect structure, yellow boxes, modality bubbles (purple/pink/green), and IDs.",
+    "Image": "Textbook page (French). CRITICAL USE: Determine Strict Visual Boundaries between exercises, detect colored boxes/bubbles (hints), and identify structure (e.g., 'Cherchons' blocks).",
     "CSV": "Contains the ground-truth text. You MUST extract text segments from this CSV ONLY. Copy exact characters."
   },
 
@@ -41,41 +41,41 @@
     "NO EDITING: Do not normalize text. Copy exactly as appearing in the CSV.",
     "LINE BREAKS: Preserve line breaks from the CSV, specifically for word lists. Join lines with \\n.",
     "SYMBOLS: Keep all arrows (➞, →, ▶), bullets, and item letters (a., b.) inside the 'statement'.",
-    "NO DUPLICATION: Text assigned to 'instruction', 'hint', or 'example' MUST NOT be repeated in 'statement'."
+    "NO DUPLICATION: Text assigned to 'instruction', 'labels', 'hint', or 'example' MUST NOT be repeated in 'statement'."
   ],
 
-  "GHOST_TAGS_LOGIC": {
-    "DEFINITION": "The following headers are 'GHOST TAGS': ['À l'oral', 'J'écris', 'Défi langue', 'Cherchons'].",
-    "RULE_1_ID": "Use the Ghost Tag to generate the 'id' ONLY IF there is NO exercise number (e.g., id='pXX_defi_langue'). If there is a number, IGNORE the tag for the ID.",
-    "RULE_2_DESTRUCTION": "NEVER include Ghost Tags in the JSON content fields ('instruction', 'labels', 'statement'). They must be DELETED from the output text."
+  "SPATIAL_BOUNDARIES_RULES": {
+    "ISOLATION": "Each exercise is a CLOSED BOX. Never grab text, hints, or labels from a neighboring exercise block.",
+    "VISUAL_CONTAINMENT": "A hint belongs to an exercise ONLY IF it is physically inside the exercise's graphical boundary or immediately adjacent to its number. Do not attribute a hint from the bottom of the page to an exercise at the top.",
+    "GHOST_TAGS_DEFINITION": "Terms like 'À l'oral', 'J'écris', 'Défi langue', 'Cherchons' are markers. They are NOT content."
   },
 
   "ID_GENERATION_RULES": {
-    "HIERARCHY": "You must strictly follow this priority order for the 'id' field:",
-    "PRIORITY_1_NUMBERED": "If the exercise has a NUMBER (e.g., 6, 7), the ID is ALWAYS 'p{PageNumber}_ex{Number}'.",
-    "PRIORITY_2_TITLED": "ONLY if the exercise has NO NUMBER, use the Ghost Tag title: 'p{PageNumber}_{Title_SnakeCase}'."
+    "HIERARCHY": "Strict priority:",
+    "PRIORITY_1": "If Number exists -> ID: 'p{PageNumber}_ex{Number}'. (The Ghost Tag is completely IGNORED/DELETED).",
+    "PRIORITY_2": "If NO Number -> ID: 'p{PageNumber}_{GhostTag_SnakeCase}' (Use the Ghost Tag text for ID, then DELETE it from content)."
   },
 
   "CONTENT_MAPPING": {
-    "labels": "Only for structural table headers. NEVER put 'À l'oral', 'J'écris', etc. here.",
+    "labels": "Extract here:\n1. Structural table headers.\n2. WORD BANKS: Horizontal or vertical lists of isolated words provided for the student to choose from (e.g., a list of verbs to conjugate).\n3. EXCLUSION: Do NOT put Ghost Tags here.",
 
-    "instruction": "The bold directive text. \nCRITICAL: Start extracting AFTER the Ghost Tag. The instruction must NOT contain 'À l'oral' or 'J'écris'.",
+    "instruction": "The directive text.\nTYPE 'CHERCHONS': In 'Cherchons' blocks, the instruction is the list of questions (usually bullet points) found at the bottom of the block.\nTYPE STANDARD: The bold text at the start. \nCLEANING: Always remove Ghost Tags ('À l'oral', etc.) from the instruction string.",
 
-    "hint": "Auxiliary text providing HELP, RULES, or TIPS. \nVISUALS: Look for yellow boxes, sticky notes, or the FOX mascot speaking.",
+    "hint": "Auxiliary text providing HELP, RULES, or TIPS. \nVISUALS: Look for distinct graphic containers (yellow boxes, sticky notes, side-notes) or MASCOTS (e.g., fox character) speaking via speech bubbles.\nCONSTRAINT: The hint MUST be visually anchored to the specific exercise.",
 
-    "example": "Text demonstrating the task. \nEXPLICIT: Labeled with 'Exemple', 'Modèle', 'Ex.'.\nIMPLICIT: Text showing a transformation (arrows '➞') or sample answer, visually distinct, located immediately after the instruction.",
+    "example": "Text demonstrating the task. \nEXPLICIT: Labeled with 'Exemple', 'Modèle'.\nIMPLICIT: Text showing a transformation (arrows '➞') or sample answer, visually distinct (color/italics), immediately following the instruction.",
 
-    "statement": "The REMAINING content (items, questions, lists, dialogues) AFTER extracting instruction, hint, and example."
+    "statement": "The REMAINING content.\nTYPE 'CHERCHONS': The narrative text describing the scene and the context image (usually at the top of the block).\nTYPE STANDARD: The exercise items, sentences to transform, dialogues, etc."
   },
 
   "IMAGE_HANDLING": {
-    "detection": "Look for black labels in the image (e.g., p13c1).",
-    "insertion": "Insert \\image{id} into the 'statement' where it logically belongs.",
-    "association": "If an exercise refers to specific visual elements (e.g., 'panneau 1') and there is an image label 'p13c1', associate them."
+    "detection": "Look for black labels in the image (e.g., pXXcY).",
+    "insertion": "Insert \\image{id} into the 'statement' where it logically belongs."
   },
 
   "EXCLUSIONS": [
-    "Do NOT extract lesson headers like 'Je retiens' or 'Observons' unless they are actionable.",
+    "Do NOT extract lesson headers (e.g., 'Je retiens', 'Observons').",
+    "Do NOT extract SECTION BANNERS/RIBBONS (colored bands often starting with 'Utiliser...', 'Reconnaître...'). These are titles, not hints.",
     "Do NOT extract ISBNs or dates."
   ]
 }
