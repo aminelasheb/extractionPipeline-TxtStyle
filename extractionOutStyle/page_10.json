@@ -1,0 +1,36 @@
+[
+  {
+    "id": "p10_Cherchons",
+    "type": "exercise",
+    "images": true,
+    "image_type": "single",
+    "properties": {
+      "number": null,
+      "instruction": "\\color{\\\"●\\\", #8dc63f} Quelle phrase donne un ordre ?\\n\\color{\\\"●\\\", #8dc63f} Combien de phrases posent des questions ?\\n\\color{\\\"●\\\", #8dc63f} Quelles phrases donnent des informations ?\\n\\color{\\\"●\\\", #8dc63f} Comment reconnaît-on les différents types de phrase ?",
+      "labels": [],
+      "statement": "\\image{p10c0}Regarde, un chantier ! Reconnais-tu\\ncette machine ? Elle imite le bras\\net la main. Elle sert à charger\\net déplacer des matériaux.\\nComment s’appelle-t-elle ?",
+      "hint": null,
+      "example": null,
+      "references": null
+    }
+  },
+  {
+    "id": "p10_ex1",
+    "type": "exercise",
+    "images": false,
+    "image_type": "none",
+    "properties": {
+      "number": "1",
+      "instruction": "Classe les phrases dans le tableau.",
+      "labels": [
+        "déclarative",
+        "interrogative",
+        "impérative"
+      ],
+      "statement": "\\color{\\\"\\\\bf{a.}\\\", #ec008c} Qui sera là dimanche ?\\n\\color{\\\"\\\\bf{b.}\\\", #ec008c} Les phoques vivent sur la banquise.\\n\\color{\\\"\\\\bf{c.}\\\", #ec008c} Dépêche-toi !\\n\\color{\\\"\\\\bf{d.}\\\", #ec008c} Mange ton gâteau.\\n\\color{\\\"\\\\bf{e.}\\\", #ec008c} On prépare une galette.\\n\\color{\\\"\\\\bf{f.}\\\", #ec008c} Combien sommes-nous ?",
+      "hint": null,
+      "example": null,
+      "references": null
+    }
+  }
+]

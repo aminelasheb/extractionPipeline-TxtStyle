@@ -1,0 +1,122 @@
+[
+  {
+    "id": "p9_ex3",
+    "type": "exercise",
+    "images": false,
+    "image_type": "none",
+    "properties": {
+      "number": "3",
+      "instruction": "\\bf{Dans chaque liste, recopie}\n\\bf{la phrase correcte.}",
+      "labels": [],
+      "statement": "\\color{\"\\bf{a.}\", #ec008c} il fait beau • Il fait beau. • il fait beau.\n\\color{\"\\bf{b.}\", #ec008c} Nous avons entendu un cri • Nous avons,\nentendu un cri. • Nous avons entendu un cri.\n\\color{\"\\bf{c.}\", #ec008c} Où vas-tu si vite. • Où vas-tu si vite ? •\n\\color{\"\\bf{où}\", #ec008c} vas-tu si vite ?\n\\color{\"\\bf{d.}\", #ec008c} Je suis, en retard • je suis en retard. •\n\\color{\"\\bf{Je}\", #ec008c} suis en retard.",
+      "hint": null,
+      "example": null,
+      "references": null
+    }
+  },
+  {
+    "id": "p9_ex4",
+    "type": "exercise",
+    "images": false,
+    "image_type": "none",
+    "properties": {
+      "number": "4",
+      "instruction": "\\bf{Ajoute la virgule manquante}\n\\bf{dans chaque phrase.}",
+      "labels": [],
+      "statement": "\\color{\"\\bf{a.}\", #ec008c} Hier il a plu.\n\\color{\"\\bf{b.}\", #ec008c} Demain je resterai à la maison.\n\\color{\"\\bf{c.}\", #ec008c} Aujourd’hui je mange à la cantine.\n\\color{\"\\bf{d.}\", #ec008c} Lundi prochain nous irons au cinéma.\n\\color{\"\\bf{e.}\", #ec008c} Bientôt nous rendrons visite à nos\ngrands-parents.",
+      "hint": null,
+      "example": "\\color{\"Hier soir j’ai préparé mon cartable.\", #c40075}\n\\color{\"➞ Hier soir , j’ai préparé mon cartable.\", #c40075}",
+      "references": null
+    }
+  },
+  {
+    "id": "p9_ex5",
+    "type": "exercise",
+    "images": false,
+    "image_type": "none",
+    "properties": {
+      "number": "5",
+      "instruction": "\\bf{Ajoute deux virgules et}\n\\bf{un point dans chaque phrase.}",
+      "labels": [],
+      "statement": "\\color{\"\\bf{a.}\", #ec008c} Hier en allant à l’école je me suis arrêté\n\\color{\"\\bf{à}\", #ec008c} la boulangerie\n\\color{\"\\bf{b.}\", #ec008c} Dimanche avec mes parents nous avons\n\\color{\"\\bf{fait}\", #ec008c} du vélo\n\\color{\"\\bf{c.}\", #ec008c} Un jour dans la forêt j’ai croisé un cerf et\ndeux biches\n\\color{\"\\bf{d.}\", #ec008c} L’année dernière pendant les vacances\nd’été il a fait très beau",
+      "hint": null,
+      "example": null,
+      "references": null
+    }
+  },
+  {
+    "id": "p9_ex6",
+    "type": "exercise",
+    "images": false,
+    "image_type": "none",
+    "properties": {
+      "number": "6",
+      "instruction": "\\bf{Recopie le texte en ajoutant}\n\\bf{les majuscules et les points.}",
+      "labels": [],
+      "statement": "margaux et sarah sont les meilleures amies\ndu monde elles ne se quittent jamais sauf\nquand elles se disputent malheureusement,\nelles se disputent très souvent",
+      "hint": "\\bf{Il y a trois phrases.}",
+      "example": null,
+      "references": null
+    }
+  },
+  {
+    "id": "p9_defi_langue",
+    "type": "exercise",
+    "images": false,
+    "image_type": "none",
+    "properties": {
+      "number": null,
+      "instruction": "\\bf{Recopie la phrase en ajoutant le point}\n\\bf{qui convient. Explique pourquoi tu as}\n\\bf{choisi ce point.}",
+      "labels": [],
+      "statement": "Où dors-tu",
+      "hint": "\\bf{Il manque des points et}\n\\bf{des points d’interrogation.}\n\\bf{Il y a trois phrases.}",
+      "example": null,
+      "references": null
+    }
+  },
+  {
+    "id": "p9_ex7",
+    "type": "exercise",
+    "images": false,
+    "image_type": "none",
+    "properties": {
+      "number": "7",
+      "instruction": "\\bf{Complète ce dialogue entre}\n\\bf{deux enfants en ajoutant les points}\n\\bf{oubliés.}",
+      "labels": [],
+      "statement": "« Comment t’es-tu cassé le bras\n– Je roulais à vélo et je suis tombé\n– Es-tu allé à l’hôpital\n– Oui, le docteur m’a plâtré\n– Est-ce que je peux faire un dessin sur ton\nplâtre\n– D’accord, tu seras le premier »",
+      "hint": null,
+      "example": null,
+      "references": null
+    }
+  },
+  {
+    "id": "p9_ex8",
+    "type": "exercise",
+    "images": false,
+    "image_type": "none",
+    "properties": {
+      "number": "8",
+      "instruction": "\\bf{Entraîne-toi à dire}\n\\bf{les phrases suivantes. Fais attention}\n\\bf{à la ponctuation.}",
+      "labels": [],
+      "statement": "J’suis le renard ! Je vais vous dévorer !\nJ’suis le renard ! J’arrive pour déjeuner !",
+      "hint": null,
+      "example": null,
+      "references": null
+    }
+  },
+  {
+    "id": "p9_ex9",
+    "type": "exercise",
+    "images": true,
+    "image_type": "single",
+    "properties": {
+      "number": "9",
+      "instruction": "\\bf{Enzo et Tom n’ont pas l’air}\n\\bf{d’accord. Écris la suite de leur dialogue.}",
+      "labels": [],
+      "statement": "– J’ai gagné le sac de billes, il ne te reste\nplus qu’une seule bille.\n– Ah non, ce n’est pas ce qu’on avait dit !\n\\image{p9c0}",
+      "hint": null,
+      "example": null,
+      "references": null
+    }
+  }
+]

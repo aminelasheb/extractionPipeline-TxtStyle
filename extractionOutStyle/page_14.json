@@ -6,9 +6,9 @@
     "image_type": "ordered",
     "properties": {
       "number": null,
-      "instruction": "● Observez ce qui se passe dans chaque dessin. Complétez chaque phrase\npar un mot.\n● Quel est le rôle de ces mots ?",
+      "instruction": "\\color{\\\"●\\\", #8dc63f} \\bf{Observez ce qui se passe dans chaque dessin. Complétez chaque phrase\\npar un mot.}\\n\\color{\\\"●\\\", #8dc63f} \\bf{Quel est le rôle de ces mots ?}",
       "labels": [],
-      "statement": "\\image{p14c1}\nLucie … .\n\\image{p14c0}\nLucie … .\n\\image{p14c2}\nLucie … .",
+      "statement": "\\image{p14c1}\\nLucie … .\\n\\image{p14c0}\\nLucie … .\\n\\image{p14c2}\\nLucie … .",
       "hint": null,
       "example": null,
       "references": null
@@ -21,7 +21,7 @@
     "image_type": "none",
     "properties": {
       "number": "1",
-      "instruction": "Recopie uniquement les verbes\nde la liste.",
+      "instruction": "\\bf{Recopie uniquement les verbes\\nde la liste.}",
       "labels": [
         "fleur",
         "rouler",
@@ -52,9 +52,9 @@
     "image_type": "none",
     "properties": {
       "number": "2",
-      "instruction": "Recopie les phrases puis entoure\nle verbe en rouge.",
+      "instruction": "\\bf{Recopie les phrases puis entoure\\nle verbe en rouge.}",
       "labels": [],
-      "statement": "a. Lara entre dans la pièce.\nb. Nous bondissons hors de la voiture.\nc. Elle pose ses lunettes de soleil sur la\ntable.\nd. Tu téléphones à Mehdi.\ne. Il taille son crayon de couleur.\nf. Le train partira à l’heure.",
+      "statement": "\\color{\\\"\\bf{a.}\\\", #ec008c} Lara entre dans la pièce.\\n\\color{\\\"\\bf{b.}\\\", #ec008c} Nous bondissons hors de la voiture.\\n\\color{\\\"\\bf{c.}\\\", #ec008c} Elle pose ses lunettes de soleil sur la\\ntable.\\n\\color{\\\"\\bf{d.}\\\", #ec008c} Tu téléphones à Mehdi.\\n\\color{\\\"\\bf{e.}\\\", #ec008c} Il taille son crayon de couleur.\\n\\color{\\\"\\bf{f.}\\\", #ec008c} Le train partira à l’heure.",
       "hint": null,
       "example": null,
       "references": null

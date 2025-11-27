@@ -1,0 +1,36 @@
+[
+  {
+    "id": "p10_cherchons",
+    "type": "exercise",
+    "images": true,
+    "image_type": "single",
+    "properties": {
+      "number": null,
+      "instruction": "● Quelle phrase donne un ordre ?\n● Combien de phrases posent des questions ?\n● Quelles phrases donnent des informations ?\n● Comment reconnaît-on les différents types de phrase ?",
+      "labels": [],
+      "statement": "Regarde, un chantier ! Reconnais-tu\ncette machine ? Elle imite le bras\net la main. Elle sert à charger\net déplacer des matériaux.\nComment s’appelle-t-elle ?\n\\image{p10c0}",
+      "hint": null,
+      "example": null,
+      "references": null
+    }
+  },
+  {
+    "id": "p10_ex1",
+    "type": "exercise",
+    "images": false,
+    "image_type": "none",
+    "properties": {
+      "number": "1",
+      "instruction": "Classe les phrases dans le tableau.",
+      "labels": [
+        "déclarative",
+        "interrogative",
+        "impérative"
+      ],
+      "statement": "a. Qui sera là dimanche ?\nb. Les phoques vivent sur la banquise.\nc. Dépêche-toi !\nd. Mange ton gâteau.\ne. On prépare une galette.\nf. Combien sommes-nous ?",
+      "hint": null,
+      "example": null,
+      "references": null
+    }
+  }
+]

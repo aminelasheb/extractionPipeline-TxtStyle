@@ -1,0 +1,122 @@
+[
+  {
+    "id": "p9_ex3",
+    "type": "exercise",
+    "images": false,
+    "image_type": "none",
+    "properties": {
+      "number": "3",
+      "instruction": "Dans chaque liste, recopie\nla phrase correcte.",
+      "labels": [],
+      "statement": "a. il fait beau • Il fait beau. • il fait beau.\nb. Nous avons entendu un cri • Nous avons,\nentendu un cri. • Nous avons entendu un cri.\nc. Où vas-tu si vite. • Où vas-tu si vite ? •\noù vas-tu si vite ?\nd. Je suis, en retard • je suis en retard. •\nJe suis en retard.",
+      "hint": null,
+      "example": null,
+      "references": null
+    }
+  },
+  {
+    "id": "p9_defi_langue",
+    "type": "exercise",
+    "images": false,
+    "image_type": "none",
+    "properties": {
+      "number": null,
+      "instruction": "Recopie la phrase en ajoutant le point\nqui convient. Explique pourquoi tu as\nchoisi ce point.",
+      "labels": [],
+      "statement": "Où dors-tu",
+      "hint": null,
+      "example": null,
+      "references": null
+    }
+  },
+  {
+    "id": "p9_ex4",
+    "type": "exercise",
+    "images": false,
+    "image_type": "none",
+    "properties": {
+      "number": "4",
+      "instruction": "Ajoute la virgule manquante\ndans chaque phrase.",
+      "labels": [],
+      "statement": "a. Hier il a plu.\nb. Demain je resterai à la maison.\nc. Aujourd’hui je mange à la cantine.\nd. Lundi prochain nous irons au cinéma.\ne. Bientôt nous rendrons visite à nos\ngrands-parents.",
+      "hint": null,
+      "example": "Hier soir j’ai préparé mon cartable.\n➞ Hier soir , j’ai préparé mon cartable.",
+      "references": null
+    }
+  },
+  {
+    "id": "p9_ex7",
+    "type": "exercise",
+    "images": false,
+    "image_type": "none",
+    "properties": {
+      "number": "7",
+      "instruction": "Complète ce dialogue entre\ndeux enfants en ajoutant les points\noubliés.",
+      "labels": [],
+      "statement": "« Comment t’es-tu cassé le bras\n– Je roulais à vélo et je suis tombé\n– Es-tu allé à l’hôpital\n– Oui, le docteur m’a plâtré\n– Est-ce que je peux faire un dessin sur ton\nplâtre\n– D’accord, tu seras le premier »",
+      "hint": "Il manque des points et\ndes points d’interrogation.",
+      "example": null,
+      "references": null
+    }
+  },
+  {
+    "id": "p9_ex5",
+    "type": "exercise",
+    "images": false,
+    "image_type": "none",
+    "properties": {
+      "number": "5",
+      "instruction": "Ajoute deux virgules et\nun point dans chaque phrase.",
+      "labels": [],
+      "statement": "a. Hier en allant à l’école je me suis arrêté\nà la boulangerie\nb. Dimanche avec mes parents nous avons\nfait du vélo\nc. Un jour dans la forêt j’ai croisé un cerf et\ndeux biches\nd. L’année dernière pendant les vacances\nd’été il a fait très beau",
+      "hint": null,
+      "example": null,
+      "references": null
+    }
+  },
+  {
+    "id": "p9_ex8",
+    "type": "exercise",
+    "images": false,
+    "image_type": "none",
+    "properties": {
+      "number": "8",
+      "instruction": "Entraîne-toi à dire\nles phrases suivantes. Fais attention\nà la ponctuation.",
+      "labels": [],
+      "statement": "J’suis le renard ! Je vais vous dévorer !\nJ’suis le renard ! J’arrive pour déjeuner !",
+      "hint": null,
+      "example": null,
+      "references": null
+    }
+  },
+  {
+    "id": "p9_ex6",
+    "type": "exercise",
+    "images": false,
+    "image_type": "none",
+    "properties": {
+      "number": "6",
+      "instruction": "Recopie le texte en ajoutant\nles majuscules et les points.",
+      "labels": [],
+      "statement": "margaux et sarah sont les meilleures amies\ndu monde elles ne se quittent jamais sauf\nquand elles se disputent malheureusement,\nelles se disputent très souvent",
+      "hint": "Il y a trois phrases.",
+      "example": null,
+      "references": null
+    }
+  },
+  {
+    "id": "p9_ex9",
+    "type": "exercise",
+    "images": true,
+    "image_type": "single",
+    "properties": {
+      "number": "9",
+      "instruction": "Enzo et Tom n’ont pas l’air\nd’accord. Écris la suite de leur dialogue.",
+      "labels": [],
+      "statement": "– J’ai gagné le sac de billes, il ne te reste\nplus qu’une seule bille.\n– Ah non, ce n’est pas ce qu’on avait dit !\n\\image{p9c0}",
+      "hint": null,
+      "example": null,
+      "references": null
+    }
+  }
+]

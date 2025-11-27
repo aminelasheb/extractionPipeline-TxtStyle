@@ -6,6 +6,7 @@ from typing import Optional
 
 import PIL.Image
 from google import genai
+from config import STYLE_MODE  # <--- add this
 
 
 # =========================
@@ -22,7 +23,6 @@ POST_SUCCESS_PAUSE = 0.25
 # ---- Booléen de mode style / normal ----
 # True  => utilise promptStyle.txt + extractionOutStyle
 # False => utilise prompt.txt      + extractionOut
-STYLE_MODE = False
 
 # Project layout
 api_key_path = r"C:\Users\lasheb\PycharmProjects\MALIN-extraction-with-images\apikey.txt"
@@ -242,9 +242,7 @@ def main():
         if fname.lower().endswith((".png", ".jpg", ".jpeg", ".webp")):
             fpath = os.path.join(image_dir, fname)
             process_image_file(client, fpath)
-
     print(" Done.")
-
 
 if __name__ == "__main__":
     main()

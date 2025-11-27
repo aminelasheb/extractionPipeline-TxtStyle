@@ -1,0 +1,44 @@
+phrase;font_family;size;color_hex;style_tag;overrides
+12;HypatiaSansPro;11;#ec008c;bold;
+Reconnaître la forme affirmative et la forme négative;FrankfurterSHOP;11;#ffffff;medium;
+1;HelveticaNeueLTStd;11.6767;#ffffff;regular;
+Classe les phrases dans le tableau.;HypatiaSansPro;13;#231f20;bold;
+forme affirmative;HypatiaSansPro;12.5;#231f20;bold;
+forme négative;HypatiaSansPro;12.5;#231f20;bold;
+a. Je ne suis pas prête.;HypatiaSansPro;13;#231f20;regular;a.|HypatiaSansPro|13|#ec008c|bold
+b. Tu ranges ta chambre tous les soirs.;HypatiaSansPro;13;#231f20;regular;b.|HypatiaSansPro|13|#ec008c|bold
+c. Il fait très froid ce matin.;HypatiaSansPro;13;#231f20;regular;c.|HypatiaSansPro|13|#ec008c|bold
+d. Nous ne sommes jamais d’accord.;HypatiaSansPro;13;#231f20;regular;d.|HypatiaSansPro|13|#ec008c|bold
+e. Samia parle trois langues.;HypatiaSansPro;13;#231f20;regular;e.|HypatiaSansPro|13|#ec008c|bold
+Les formes affirmative, négative et exclamative;HypatiaSansPro;26;#ffffff;bold;
+● Observe les phrases que prononcent les personnages.;HypatiaSansPro;13;#231f20;bold;●|ZapfDingbatsStd|8|#8dc63f|regular
+● Quel personnage préfère le tableau ? Comment le sais-tu ?;HypatiaSansPro;13;#231f20;bold;●|ZapfDingbatsStd|8|#8dc63f|regular
+● Quel personnage n’a pas aimé le tableau ? Quels sont les deux petits mots;HypatiaSansPro;13;#231f20;bold;●|ZapfDingbatsStd|8|#8dc63f|regular
+qui l’indiquent ?;HypatiaSansPro;13;#231f20;bold;
+Je retiens;FrankfurterSHOP;13;#ffffff;medium;
+● Une phrase peut s’écrire à la forme affirmative , négative ou exclamative .;HypatiaSansPro;13;#4352a3;black;●|ZapfDingbatsStd|8|#4352a3|regular||Une|HypatiaSansPro|13|#4352a3|bold||peut|HypatiaSansPro|13|#4352a3|bold||s’écrire|HypatiaSansPro|13|#4352a3|bold||à|HypatiaSansPro|13|#4352a3|bold||la|HypatiaSansPro|13|#4352a3|bold||ou|HypatiaSansPro|13|#4352a3|bold
+Ce tableau est beau.;HypatiaSansPro;13;#c40075;bold;
+Ce tableau n’ est pas beau.;HypatiaSansPro;13;#c40075;bold;pas|HypatiaSansPro|13|#c40075|black
+Ce tableau est beau !;HypatiaSansPro;13;#c40075;bold;!|HypatiaSansPro|13|#c40075|black
+forme affirmative;HypatiaSansPro;10;#4352a3;bold;
+forme négative;HypatiaSansPro;10;#4352a3;bold;
+forme exclamative;HypatiaSansPro;10;#4352a3;bold;
+● Une phrase à la forme négative sert à dire « non ».;HypatiaSansPro;13;#4352a3;bold;●|ZapfDingbatsStd|8|#4352a3|regular||forme|HypatiaSansPro|13|#4352a3|black||négative|HypatiaSansPro|13|#4352a3|black||non|HypatiaSansPro|13|#4352a3|black
+Pour former une phrase négative , on ajoute deux petits mots (ne… pas ou n’…;HypatiaSansPro;13;#4352a3;bold;phrase|HypatiaSansPro|13|#4352a3|black||négative,|HypatiaSansPro|13|#4352a3|black||(ne…|HypatiaSansPro|13|#4352a3|black||pas|HypatiaSansPro|13|#4352a3|black||ou|HypatiaSansPro|13|#4352a3|black||n’…|HypatiaSansPro|13|#4352a3|black
+pas, ne… plus…, ne… jamais) à la phrase affirmative :;HypatiaSansPro;13;#4352a3;black;à|HypatiaSansPro|13|#4352a3|bold||la|HypatiaSansPro|13|#4352a3|bold||:|HypatiaSansPro|13|#4352a3|bold
+Je dors. ➞ Je ne dors pas .;HypatiaSansPro;13;#c40075;bold;➞|ZapfDingbatsStd|13|#4352a3|regular||ne|HypatiaSansPro|13|#c40075|black||pas.|HypatiaSansPro|13|#c40075|black
+● Une phrase à la forme exclamative exprime une émotion (joie, étonnement,;HypatiaSansPro;13;#4352a3;bold;●|ZapfDingbatsStd|8|#4352a3|regular||forme|HypatiaSansPro|13|#4352a3|black||exclamative|HypatiaSansPro|13|#4352a3|black||émotion|HypatiaSansPro|13|#4352a3|black
+inquiétude, colère, etc.). Elle se termine toujours par un point d’exclamation ( ! ) .;HypatiaSansPro;13;#4352a3;bold;point|HypatiaSansPro|13|#4352a3|black||d’exclamation|HypatiaSansPro|13|#4352a3|black||(!).|HypatiaSansPro|13|#c40075|black
+Je suis très contente de venir chez toi ! (joie);HypatiaSansPro;13;#c40075;black;(joie)|HypatiaSansPro|13|#4352a3|bold
+!;CenturyStd;22.1889;#ec008c;bold;
+Une phrase peut être à la fois négative et exclamative .;HypatiaSansPro;13;#4352a3;bold;négative|HypatiaSansPro|13|#4352a3|black||exclamative.|HypatiaSansPro|13|#4352a3|black
+Ce tableau n’ est pas beau !;HypatiaSansPro;13;#c40075;bold;pas|HypatiaSansPro|13|#c40075|black
+Ce tableau;CenturyStd;12;#231f20;regular;
+est beau.;CenturyStd;12;#231f20;regular;
+Ce tableau;CenturyStd;12;#231f20;regular;
+est beau !;CenturyStd;12;#231f20;regular;
+Ce tableau;CenturyStd;12;#231f20;regular;
+n’est pas beau.;CenturyStd;12;#231f20;regular;
+Cherchons;FrankfurterSHOP;13;#ffffff;medium;
+9782210505377_001-144.indb 12;Helvetica;6;#000000;regular;
+28/03/2019 12:17;Helvetica;6;#000000;regular;

@@ -3,10 +3,11 @@ import shutil
 import subprocess
 import sys
 from pathlib import Path
+from config import STYLE_MODE  # <--- add this
 
 BASE_DIR = Path(__file__).resolve().parent
 
-DIRS_TO_RESET = ["files", "files_style", "files_images", "output", "files-out", "extractionOutStyle", "extractionOut"]
+DIRS_TO_RESET = ["files", "files_style", "files_images", "output", "files-out", "extractionOutStyle", "extractionOut", "extractionOutStyle_Cleaned"]
 
 
 def reset_directories():
@@ -61,8 +62,8 @@ if __name__ == "__main__":
     # 🔧 CONTRÔLE DES PAGES
     # =========================
     ALL_PAGES = False          # True = tout le PDF, False = sous-ensemble
-    FIRST_PAGE = 12             # 1-based
-    LAST_PAGE = 16           # 1-based, inclus
+    FIRST_PAGE = 9            # 1-based
+    LAST_PAGE = 15           # 1-based, inclus
 
     if ALL_PAGES:
         all_flag = "true"
@@ -101,5 +102,8 @@ if __name__ == "__main__":
     run_script("cropImages.py")
     run_script("drawBoxes.py")
     run_script("extraction-gemini-vision.py")
+
+    if STYLE_MODE==True :
+        run_script("postprocessing.py")
 
     print("\n[DONE] All tasks completed successfully!")

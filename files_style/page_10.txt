@@ -1,0 +1,40 @@
+phrase;font_family;size;color_hex;style_tag;overrides
+10;HypatiaSansPro;11;#ec008c;bold;
+Cherchons;FrankfurterSHOP;13;#ffffff;medium;
+Reconnaître les types de phrase;FrankfurterSHOP;11;#ffffff;medium;
+1;HelveticaNeueLTStd;11.6767;#ffffff;regular;
+Classe les phrases dans le tableau.;HypatiaSansPro;13;#231f20;bold;
+déclarative;HypatiaSansPro;12.5;#231f20;bold;
+interrogative;HypatiaSansPro;12.5;#231f20;bold;
+impérative;HypatiaSansPro;12.5;#231f20;bold;
+a. Qui sera là dimanche ?;HypatiaSansPro;13;#231f20;regular;a.|HypatiaSansPro|13|#ec008c|bold
+b. Les phoques vivent sur la banquise.;HypatiaSansPro;13;#231f20;regular;b.|HypatiaSansPro|13|#ec008c|bold
+c. Dépêche-toi !;HypatiaSansPro;13;#231f20;regular;c.|HypatiaSansPro|13|#ec008c|bold
+d. Mange ton gâteau.;HypatiaSansPro;13;#231f20;regular;d.|HypatiaSansPro|13|#ec008c|bold
+e. On prépare une galette.;HypatiaSansPro;13;#231f20;regular;e.|HypatiaSansPro|13|#ec008c|bold
+f. Combien sommes-nous ?;HypatiaSansPro;13;#231f20;regular;f.|HypatiaSansPro|13|#ec008c|bold
+● Quelle phrase donne un ordre ?;HypatiaSansPro;13;#231f20;bold;●|ZapfDingbatsStd|8|#8dc63f|regular
+● Combien de phrases posent des questions ?;HypatiaSansPro;13;#231f20;bold;●|ZapfDingbatsStd|8|#8dc63f|regular
+● Quelles phrases donnent des informations ?;HypatiaSansPro;13;#231f20;bold;●|ZapfDingbatsStd|8|#8dc63f|regular
+● Comment reconnaît-on les différents types de phrase ?;HypatiaSansPro;13;#231f20;bold;●|ZapfDingbatsStd|8|#8dc63f|regular
+Les types de phrase;HypatiaSansPro;26;#ffffff;bold;
+Je retiens;FrankfurterSHOP;13;#ffffff;medium;
+● La phrase déclarative sert à donner une information , elle commence par;HypatiaSansPro;13;#4352a3;black;●|ZapfDingbatsStd|8|#4352a3|regular||La|HypatiaSansPro|13|#4352a3|bold||sert|HypatiaSansPro|13|#4352a3|bold||à|HypatiaSansPro|13|#4352a3|bold||elle|HypatiaSansPro|13|#4352a3|bold||commence|HypatiaSansPro|13|#4352a3|bold||par|HypatiaSansPro|13|#4352a3|bold
+une majuscule et se termine par un point ( . ).;HypatiaSansPro;13;#4352a3;black;et|HypatiaSansPro|13|#4352a3|bold||se|HypatiaSansPro|13|#4352a3|bold||termine|HypatiaSansPro|13|#4352a3|bold||par|HypatiaSansPro|13|#4352a3|bold||(.).|HypatiaSansPro|13|#4352a3|bold
+L a grue imite la main .;HypatiaSansPro;13;#c40075;bold;
+● La phrase interrogative sert à poser une question . Elle commence par;HypatiaSansPro;13;#4352a3;black;●|ZapfDingbatsStd|8|#4352a3|regular||La|HypatiaSansPro|13|#4352a3|bold||sert|HypatiaSansPro|13|#4352a3|bold||à|HypatiaSansPro|13|#4352a3|bold||Elle|HypatiaSansPro|13|#4352a3|bold||commence|HypatiaSansPro|13|#4352a3|bold||par|HypatiaSansPro|13|#4352a3|bold
+une majuscule et se termine par un point d’interrogation ( ? ). Dans la phrase;HypatiaSansPro;13;#4352a3;black;et|HypatiaSansPro|13|#4352a3|bold||se|HypatiaSansPro|13|#4352a3|bold||termine|HypatiaSansPro|13|#4352a3|bold||par|HypatiaSansPro|13|#4352a3|bold||(?).|HypatiaSansPro|13|#4352a3|bold||Dans|HypatiaSansPro|13|#4352a3|bold||la|HypatiaSansPro|13|#4352a3|bold||phrase|HypatiaSansPro|13|#4352a3|bold
+interrogative, le sujet est généralement après le verbe .;HypatiaSansPro;13;#4352a3;bold;le|HypatiaSansPro|13|#4352a3|black||sujet|HypatiaSansPro|13|#4352a3|black||après|HypatiaSansPro|13|#4352a3|black||le|HypatiaSansPro|13|#4352a3|black||verbe.|HypatiaSansPro|13|#4352a3|black
+R econnais-tu cette machine ?;HypatiaSansPro;13;#c40075;bold;?|HypatiaSansPro|13|#c40075|black
+sujet;HypatiaSansPro;10;#4352a3;bold;
+● La phrase impérative sert à donner un ordre , elle commence par;HypatiaSansPro;13;#4352a3;black;●|ZapfDingbatsStd|8|#4352a3|regular||sert|HypatiaSansPro|13|#4352a3|bold||à|HypatiaSansPro|13|#4352a3|bold||elle|HypatiaSansPro|13|#4352a3|bold||commence|HypatiaSansPro|13|#4352a3|bold||par|HypatiaSansPro|13|#4352a3|bold
+une majuscule et se termine par un point ou un point d’exclamation ( ! );HypatiaSansPro;13;#4352a3;black;et|HypatiaSansPro|13|#4352a3|bold||se|HypatiaSansPro|13|#4352a3|bold||termine|HypatiaSansPro|13|#4352a3|bold||par|HypatiaSansPro|13|#4352a3|bold||ou|HypatiaSansPro|13|#4352a3|bold||(!)|HypatiaSansPro|13|#c40075|black
+lorsqu’on donne un ordre en insistant.;HypatiaSansPro;13;#4352a3;bold;
+F erme la porte . R egarde ce chantier !;HypatiaSansPro;13;#c40075;bold;!|HypatiaSansPro|13|#c40075|black
+Regarde, un chantier ! Reconnais-tu;CenturyStd;13;#231f20;regular;
+cette machine ? Elle imite le bras;CenturyStd;13;#231f20;regular;
+et la main. Elle sert à charger;CenturyStd;13;#231f20;regular;
+et déplacer des matériaux.;CenturyStd;13;#231f20;regular;
+Comment s’appelle-t-elle ?;CenturyStd;13;#231f20;regular;
+9782210505377_001-144.indb 10;Helvetica;6;#000000;regular;
+28/03/2019 12:17;Helvetica;6;#000000;regular;

@@ -1,0 +1,141 @@
+[
+  {
+    "id": "p15_ex3",
+    "type": "exercise",
+    "images": false,
+    "image_type": "none",
+    "properties": {
+      "number": "3",
+      "instruction": "Recopie les phrases qui\ncontiennent le même verbe.",
+      "labels": [],
+      "statement": "a. Je regarde un album avant de\nm’endormir.\nb. Nicolas observe les étoiles.\nc. Ma mère regarde un documentaire à la\ntélévision.\nd. Nous regardons un film le samedi soir.\ne. Il a un regard triste.\nf. Elle a vu ce nouveau film hier.",
+      "hint": null,
+      "example": null,
+      "references": null
+    }
+  },
+  {
+    "id": "p15_defi_langue",
+    "type": "exercise",
+    "images": false,
+    "image_type": "none",
+    "properties": {
+      "number": null,
+      "instruction": "Parmi les mots proposés, choisis celui\nqui te permettra de construire\nune phrase. Explique ton choix.",
+      "labels": [
+        "grise petit mange il"
+      ],
+      "statement": "Le chat … la souris.",
+      "hint": null,
+      "example": null,
+      "references": null
+    }
+  },
+  {
+    "id": "p15_ex4",
+    "type": "exercise",
+    "images": false,
+    "image_type": "none",
+    "properties": {
+      "number": "4",
+      "instruction": "Relève tous les verbes du texte.",
+      "labels": [],
+      "statement": "Le chat fait sa toilette plusieurs fois par\njour. Il lèche ses pattes longuement et frotte\nses oreilles plusieurs fois. Puis il nettoie le\nreste de son pelage. Il n’aime pas qu’on le\ndérange pendant cette opération. Ensuite, il\ndévore ses croquettes !",
+      "hint": "Il y a 7 verbes.",
+      "example": null,
+      "references": null
+    }
+  },
+  {
+    "id": "p15_ex5",
+    "type": "exercise",
+    "images": false,
+    "image_type": "none",
+    "properties": {
+      "number": "5",
+      "instruction": "Remplace les verbes en gras par\nun verbe de la liste.",
+      "labels": [
+        "se repose reste s’abrite perd"
+      ],
+      "statement": "a. La couleuvre se protège du froid sous un\nrocher.\nb. Elle dort tout l’hiver.\nc. L’été, elle passe des heures au soleil.\nd. La couleuvre abandonne sa peau sept\nfois par an.",
+      "hint": null,
+      "example": null,
+      "references": null
+    }
+  },
+  {
+    "id": "p15_ex6",
+    "type": "exercise",
+    "images": false,
+    "image_type": "none",
+    "properties": {
+      "number": "6",
+      "instruction": "Recopie les phrases avec le verbe.",
+      "labels": [],
+      "statement": "a. Le chat (miaule • miaulement) .\nb. Le chien (aboiement • aboie) .\nc. Le lion (rugissement • rugit) .\nd. La vache (meugle • meuglement) .",
+      "hint": null,
+      "example": null,
+      "references": null
+    }
+  },
+  {
+    "id": "p15_ex7",
+    "type": "exercise",
+    "images": true,
+    "image_type": "ordered",
+    "properties": {
+      "number": "7",
+      "instruction": "Écris une phrase pour décrire\nchaque photographie.",
+      "labels": [],
+      "statement": "a. \\image{p15c3}\nb. \\image{p15c2}\nc. \\image{p15c1}",
+      "hint": null,
+      "example": null,
+      "references": null
+    }
+  },
+  {
+    "id": "p15_ex8",
+    "type": "exercise",
+    "images": false,
+    "image_type": "none",
+    "properties": {
+      "number": "8",
+      "instruction": "Place chaque verbe en gras au bon\nendroit dans chaque phrase.",
+      "labels": [],
+      "statement": "a. se lève ➞ L’été, le jour tôt.\nb. attendent ➞ Les pêcheurs patiemment\nque les poissons mordent à l’hameçon.\nc. mange ➞ Je tous les midis à la cantine.",
+      "hint": null,
+      "example": null,
+      "references": null
+    }
+  },
+  {
+    "id": "p15_ex9",
+    "type": "exercise",
+    "images": false,
+    "image_type": "none",
+    "properties": {
+      "number": "9",
+      "instruction": "Raconte à un-e\ncamarade le moment que tu préfères\ndans la journée.",
+      "labels": [],
+      "statement": null,
+      "hint": null,
+      "example": null,
+      "references": null
+    }
+  },
+  {
+    "id": "p15_ex10",
+    "type": "exercise",
+    "images": true,
+    "image_type": "single",
+    "properties": {
+      "number": "10",
+      "instruction": "C’est un jour d’école. Écris ce que\nPauline fait le matin avant de partir.",
+      "labels": [],
+      "statement": "\\image{p15c0}",
+      "hint": null,
+      "example": null,
+      "references": null
+    }
+  }
+]

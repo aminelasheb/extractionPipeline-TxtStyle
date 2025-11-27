@@ -1,0 +1,74 @@
+phrase;font_family;size;color_hex;style_tag;overrides
+9;HypatiaSansPro;11;#ec008c;bold;
+3;HelveticaNeueLTStd;11.6767;#ffffff;regular;
+Dans chaque liste, recopie;HypatiaSansPro;13;#231f20;bold;
+la phrase correcte.;HypatiaSansPro;13;#231f20;bold;
+a. il fait beau • Il fait beau. • il fait beau.;HypatiaSansPro;13;#231f20;regular;la|HypatiaSansPro|13|#ec008c|bold||a.|HypatiaSansPro|13|#ec008c|bold
+b. Nous avons entendu un cri • Nous avons,;HypatiaSansPro;13;#231f20;regular;b.|HypatiaSansPro|13|#ec008c|bold
+entendu un cri. • Nous avons entendu un cri.;HypatiaSansPro;13;#231f20;regular;
+c. Où vas-tu si vite. • Où vas-tu si vite ? •;HypatiaSansPro;13;#231f20;regular;c.|HypatiaSansPro|13|#ec008c|bold||où|HypatiaSansPro|13|#ec008c|bold
+où vas-tu si vite ?;HypatiaSansPro;13;#231f20;regular;
+d. Je suis, en retard • je suis en retard. •;HypatiaSansPro;13;#231f20;regular;d.|HypatiaSansPro|13|#ec008c|bold||Je|HypatiaSansPro|13|#ec008c|bold
+Je suis en retard.;HypatiaSansPro;13;#231f20;regular;
+4;HelveticaNeueLTStd;11.6767;#ffffff;regular;
+Ajoute la virgule manquante;HypatiaSansPro;13;#231f20;bold;
+dans chaque phrase.;HypatiaSansPro;13;#231f20;bold;
+Hier soir j’ai préparé mon cartable.;HypatiaSansPro;12;#c40075;bold;
+➞ Hier soir , j’ai préparé mon cartable.;HypatiaSansPro;12;#c40075;bold;
+a. Hier il a plu.;HypatiaSansPro;13;#231f20;regular;a.|HypatiaSansPro|13|#ec008c|bold
+b. Demain je resterai à la maison.;HypatiaSansPro;13;#231f20;regular;b.|HypatiaSansPro|13|#ec008c|bold
+c. Aujourd’hui je mange à la cantine.;HypatiaSansPro;13;#231f20;regular;c.|HypatiaSansPro|13|#ec008c|bold
+d. Lundi prochain nous irons au cinéma.;HypatiaSansPro;13;#231f20;regular;d.|HypatiaSansPro|13|#ec008c|bold
+e. Bientôt nous rendrons visite à nos;HypatiaSansPro;13;#231f20;regular;e.|HypatiaSansPro|13|#ec008c|bold
+grands-parents.;HypatiaSansPro;13;#231f20;regular;
+5;HelveticaNeueLTStd;11.6767;#ffffff;regular;
+Ajoute deux virgules et;HypatiaSansPro;13;#231f20;bold;
+un point dans chaque phrase.;HypatiaSansPro;13;#231f20;bold;
+a. Hier en allant à l’école je me suis arrêté;HypatiaSansPro;13;#231f20;regular;un|HypatiaSansPro|13|#ec008c|bold||a.|HypatiaSansPro|13|#ec008c|bold||à|HypatiaSansPro|13|#ec008c|bold
+à la boulangerie;HypatiaSansPro;13;#231f20;regular;
+b. Dimanche avec mes parents nous avons;HypatiaSansPro;13;#231f20;regular;b.|HypatiaSansPro|13|#ec008c|bold||fait|HypatiaSansPro|13|#ec008c|bold
+fait du vélo;HypatiaSansPro;13;#231f20;regular;
+c. Un jour dans la forêt j’ai croisé un cerf et;HypatiaSansPro;13;#231f20;regular;c.|HypatiaSansPro|13|#ec008c|bold
+deux biches;HypatiaSansPro;13;#231f20;regular;
+d. L’année dernière pendant les vacances;HypatiaSansPro;13;#231f20;regular;d.|HypatiaSansPro|13|#ec008c|bold
+d’été il a fait très beau;HypatiaSansPro;13;#231f20;regular;
+6;HelveticaNeueLTStd;11.6767;#ffffff;regular;
+Recopie le texte en ajoutant;HypatiaSansPro;13;#231f20;bold;
+les majuscules et les points.;HypatiaSansPro;13;#231f20;bold;
+margaux et sarah sont les meilleures amies;HypatiaSansPro;13;#231f20;regular;
+du monde elles ne se quittent jamais sauf;HypatiaSansPro;13;#231f20;regular;
+quand elles se disputent malheureusement,;HypatiaSansPro;13;#231f20;regular;
+elles se disputent très souvent;HypatiaSansPro;13;#231f20;regular;
+9;HelveticaNeueLTStd;11.6767;#ffffff;regular;
+Enzo et Tom n’ont pas l’air;HypatiaSansPro;13;#231f20;bold;
+d’accord. Écris la suite de leur dialogue.;HypatiaSansPro;13;#231f20;bold;
+– J’ai gagné le sac de billes, il ne te reste;HypatiaSansPro;13;#231f20;regular;
+plus qu’une seule bille.;HypatiaSansPro;13;#231f20;regular;
+– Ah non, ce n’est pas ce qu’on avait dit !;HypatiaSansPro;13;#231f20;regular;
+7;HelveticaNeueLTStd;11.6767;#ffffff;regular;
+Complète ce dialogue entre;HypatiaSansPro;13;#231f20;bold;
+deux enfants en ajoutant les points;HypatiaSansPro;13;#231f20;bold;
+oubliés.;HypatiaSansPro;13;#231f20;bold;
+« Comment t’es-tu cassé le bras;HypatiaSansPro;13;#231f20;regular;
+– Je roulais à vélo et je suis tombé;HypatiaSansPro;13;#231f20;regular;
+– Es-tu allé à l’hôpital;HypatiaSansPro;13;#231f20;regular;
+– Oui, le docteur m’a plâtré;HypatiaSansPro;13;#231f20;regular;
+– Est-ce que je peux faire un dessin sur ton;HypatiaSansPro;13;#231f20;regular;
+plâtre;HypatiaSansPro;13;#231f20;regular;
+– D’accord, tu seras le premier »;HypatiaSansPro;13;#231f20;regular;
+8 À l'oral;HypatiaSansPro;12;#a4258f;bold;8 |HelveticaNeueLTStd|11.6767|#ffffff|regular
+Entraîne-toi à dire;HypatiaSansPro;13;#231f20;bold;
+les phrases suivantes. Fais attention;HypatiaSansPro;13;#231f20;bold;
+à la ponctuation.;HypatiaSansPro;13;#231f20;bold;
+J’suis le renard ! Je vais vous dévorer !;HypatiaSansPro;13;#231f20;regular;
+J’suis le renard ! J’arrive pour déjeuner !;HypatiaSansPro;13;#231f20;regular;
+Utiliser la ponctuation;FrankfurterSHOP;11;#ffffff;medium;
+Il manque des points et;HypatiaSansPro;11;#231f20;bold;
+des points d’interrogation.;HypatiaSansPro;11;#231f20;bold;
+Il y a trois phrases.;HypatiaSansPro;11;#231f20;bold;
+Recopie la phrase en ajoutant le point;HypatiaSansPro;13;#231f20;bold;
+qui convient. Explique pourquoi tu as;HypatiaSansPro;13;#231f20;bold;
+choisi ce point.;HypatiaSansPro;13;#231f20;bold;
+Où dors-tu;HypatiaSansPro;13;#231f20;regular;
+9782210505377_001-144.indb 9;Helvetica;6;#000000;regular;
+28/03/2019 12:16;Helvetica;6;#000000;regular;

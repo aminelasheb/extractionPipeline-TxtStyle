@@ -1,0 +1,137 @@
+[
+  {
+    "id": "p11_defi_langue",
+    "type": "exercise",
+    "images": false,
+    "image_type": "none",
+    "properties": {
+      "number": null,
+      "instruction": "\\bf{Un élève a souligné 3 phrases. Quelle}\n\\bf{était la consigne à ton avis ?}",
+      "labels": [],
+      "statement": "\\color{\"\\bf{a.}\", #ec008c} Qui es-tu ?\n\\color{\"\\bf{b.}\", #ec008c} Où est le chat ?\n\\color{\"\\bf{c.}\", #ec008c} Allons à la piscine.\n\\color{\"\\bf{d.}\", #ec008c} Pourquoi êtes-vous fâchés ?\n\\color{\"\\bf{e.}\", #ec008c} Vous regardez des dessins animés.",
+      "hint": null,
+      "example": null,
+      "references": null
+    }
+  },
+  {
+    "id": "p11_ex2",
+    "type": "exercise",
+    "images": false,
+    "image_type": "none",
+    "properties": {
+      "number": "2",
+      "instruction": "\\bf{Complète les phrases par }\\color{\"un\", #000000}\\bf{ point,}\n\\bf{un point d’exclamation ou un point}\n\\bf{d’interrogation.}",
+      "labels": [],
+      "statement": "\\color{\"\\bf{a.}\", #ec008c} Que faites-vous dans le jardin\n\\color{\"\\bf{b.}\", #ec008c} Nous grimpons aux arbres\n\\color{\"\\bf{c.}\", #ec008c} Comment t’appelles-tu\n\\color{\"\\bf{d.}\", #ec008c} Vite, dépêche-toi\n\\color{\"\\bf{e.}\", #ec008c} Où vas-tu\n\\color{\"\\bf{f.}\", #ec008c} As-tu froid",
+      "hint": null,
+      "example": null,
+      "references": null
+    }
+  },
+  {
+    "id": "p11_ex3",
+    "type": "exercise",
+    "images": false,
+    "image_type": "none",
+    "properties": {
+      "number": "3",
+      "instruction": "\\bf{Associe la question à la réponse}\n\\bf{qui correspond.}",
+      "labels": [],
+      "statement": "\\color{\"\\bf{1.}\", #ec008c} Où allez-vous ?\n\\color{\"\\bf{2.}\", #ec008c} Est-ce qu’il y a école aujourd’hui ?\n\\color{\"\\bf{3.}\", #ec008c} Qui attends-tu ?\n\\color{\"\\bf{4.}\", #ec008c} Pourquoi tremble-t-il ?\n\\color{\"\\bf{a.}\", #ec008c} Oui.\n\\color{\"\\bf{b.}\", #ec008c} Nous allons en ville.\n\\color{\"\\bf{c.}\", #ec008c} Il a froid.\n\\color{\"\\bf{d.}\", #ec008c} J’attends Mathias.",
+      "hint": null,
+      "example": null,
+      "references": null
+    }
+  },
+  {
+    "id": "p11_ex4",
+    "type": "exercise",
+    "images": false,
+    "image_type": "none",
+    "properties": {
+      "number": "4",
+      "instruction": "\\bf{Transforme les phrases}\n\\bf{interrogatives en phrases déclaratives.}",
+      "labels": [],
+      "statement": "\\color{\"\\bf{a.}\", #ec008c} Vient-elle à la maison ?\n\\color{\"\\bf{b.}\", #ec008c} Prennent-ils leurs affaires ?\n\\color{\"\\bf{c.}\", #ec008c} Allez-vous ensemble à l’école ?\n\\color{\"\\bf{d.}\", #ec008c} Font-ils la sieste ?\n\\color{\"\\bf{e.}\", #ec008c} Partent-ils ensemble ?\n\\color{\"\\bf{f.}\", #ec008c} Mangeons-nous à midi ?",
+      "hint": null,
+      "example": "\\color{\"\\bf{Vas-tu au cinéma ? ➞ Tu vas au cinéma.}\", #c40075}",
+      "references": null
+    }
+  },
+  {
+    "id": "p11_ex5",
+    "type": "exercise",
+    "images": false,
+    "image_type": "none",
+    "properties": {
+      "number": "5",
+      "instruction": "\\bf{Écris ces phrases interrogatives}\n\\bf{à la 3 e personne du pluriel.}",
+      "labels": [],
+      "statement": "\\color{\"\\bf{a.}\", #ec008c} Est-il en avance ?\n\\color{\"\\bf{b.}\", #ec008c} A-t-elle faim ?\n\\color{\"\\bf{c.}\", #ec008c} Fait-il la cuisine ?\n\\color{\"\\bf{d.}\", #ec008c} Mange-t-elle du miel ?",
+      "hint": null,
+      "example": "\\color{\"\\bf{Va-t-elle à l’école ? ➞ Vont-elles à l’école ?}\", #c40075}",
+      "references": null
+    }
+  },
+  {
+    "id": "p11_ex6",
+    "type": "exercise",
+    "images": false,
+    "image_type": "none",
+    "properties": {
+      "number": "6",
+      "instruction": "\\bf{Écris ces phrases à la 3 e personne}\n\\bf{du pluriel.}",
+      "labels": [],
+      "statement": "\\color{\"\\bf{a.}\", #ec008c} Est-il malade ?\n\\color{\"\\bf{b.}\", #ec008c} Elle a faim.\n\\color{\"\\bf{c.}\", #ec008c} Vous êtes en retard.\n\\color{\"\\bf{d.}\", #ec008c} Utilise-t-elle l’ordinateur ?",
+      "hint": null,
+      "example": null,
+      "references": null
+    }
+  },
+  {
+    "id": "p11_ex7",
+    "type": "exercise",
+    "images": false,
+    "image_type": "none",
+    "properties": {
+      "number": "7",
+      "instruction": "\\bf{Transforme les phrases}\n\\bf{interrogatives en phrases impératives.}",
+      "labels": [],
+      "statement": "\\color{\"\\bf{a.}\", #ec008c} Viens-tu à la piscine ?\n\\color{\"\\bf{b.}\", #ec008c} Cours-tu vite ?\n\\color{\"\\bf{c.}\", #ec008c} Finis-tu le parcours ?\n\\color{\"\\bf{d.}\", #ec008c} Prends-tu ton manteau ?",
+      "hint": null,
+      "example": "\\color{\"\\bf{Sors-tu le chien ?   ➞ S ors le chien.}\n\\bf{➞ S ors le chien !}\", #c40075}",
+      "references": null
+    }
+  },
+  {
+    "id": "p11_ex8",
+    "type": "exercise",
+    "images": true,
+    "image_type": "single",
+    "properties": {
+      "number": "8",
+      "instruction": "\\bf{Imagine un dialogue}\n\\bf{entre les deux personnages.}",
+      "labels": [],
+      "statement": "\\image{p11c0}",
+      "hint": null,
+      "example": null,
+      "references": null
+    }
+  },
+  {
+    "id": "p11_ex9",
+    "type": "exercise",
+    "images": false,
+    "image_type": "none",
+    "properties": {
+      "number": "9",
+      "instruction": "\\bf{Écris une ou deux phrases}\n\\bf{déclaratives pour décrire le dessin de}\n\\bf{l’exercice 8.}",
+      "labels": [],
+      "statement": null,
+      "hint": null,
+      "example": null,
+      "references": "p11_ex8"
+    }
+  }
+]

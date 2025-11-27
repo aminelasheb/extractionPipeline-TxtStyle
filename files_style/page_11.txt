@@ -1,0 +1,73 @@
+phrase;font_family;size;color_hex;style_tag;overrides
+11;HypatiaSansPro;11;#ec008c;bold;
+GRAMMAIRE;FrankfurterSHOP;12;#ec008c;medium;
+2 Complète les phrases par un point,;HypatiaSansPro;13;#231f20;bold;2 |HelveticaNeueLTStd|11.6767|#ffffff|regular||un||0|#000000|regular
+un point d’exclamation ou un point;HypatiaSansPro;13;#231f20;bold;
+d’interrogation.;HypatiaSansPro;13;#231f20;bold;
+a. Que faites-vous dans le jardin;HypatiaSansPro;13;#231f20;regular;a.|HypatiaSansPro|13|#ec008c|bold
+b. Nous grimpons aux arbres;HypatiaSansPro;13;#231f20;regular;b.|HypatiaSansPro|13|#ec008c|bold
+c. Comment t’appelles-tu;HypatiaSansPro;13;#231f20;regular;c.|HypatiaSansPro|13|#ec008c|bold
+d. Vite, dépêche-toi;HypatiaSansPro;13;#231f20;regular;d.|HypatiaSansPro|13|#ec008c|bold
+e. Où vas-tu;HypatiaSansPro;13;#231f20;regular;e.|HypatiaSansPro|13|#ec008c|bold
+f. As-tu froid;HypatiaSansPro;13;#231f20;regular;f.|HypatiaSansPro|13|#ec008c|bold
+Utiliser les types de phrase;FrankfurterSHOP;11;#ffffff;medium;
+3;HelveticaNeueLTStd;11.6767;#ffffff;regular;
+Associe la question à la réponse;HypatiaSansPro;13;#231f20;bold;
+qui correspond.;HypatiaSansPro;13;#231f20;bold;
+1. Où allez-vous ?;HypatiaSansPro;13;#231f20;regular;qui|HypatiaSansPro|13|#ec008c|bold||1.|HypatiaSansPro|13|#ec008c|bold
+2. Est-ce qu’il y a école aujourd’hui ?;HypatiaSansPro;13;#231f20;regular;2.|HypatiaSansPro|13|#ec008c|bold
+3. Qui attends-tu ?;HypatiaSansPro;13;#231f20;regular;3.|HypatiaSansPro|13|#ec008c|bold
+4. Pourquoi tremble-t-il ?;HypatiaSansPro;13;#231f20;regular;4.|HypatiaSansPro|13|#ec008c|bold
+a. Oui.;HypatiaSansPro;13;#231f20;regular;a.|HypatiaSansPro|13|#ec008c|bold
+b. Nous allons en ville.;HypatiaSansPro;13;#231f20;regular;b.|HypatiaSansPro|13|#ec008c|bold
+c. Il a froid.;HypatiaSansPro;13;#231f20;regular;c.|HypatiaSansPro|13|#ec008c|bold
+d. J’attends Mathias.;HypatiaSansPro;13;#231f20;regular;d.|HypatiaSansPro|13|#ec008c|bold
+4 Transforme les phrases;HypatiaSansPro;13;#231f20;bold;4 |HelveticaNeueLTStd|11.6767|#ffffff|regular
+interrogatives en phrases déclaratives.;HypatiaSansPro;13;#231f20;bold;
+Vas-tu au cinéma ? ➞ Tu vas au cinéma.;HypatiaSansPro;12;#c40075;bold;
+a. Vient-elle à la maison ?;HypatiaSansPro;13;#231f20;regular;a.|HypatiaSansPro|13|#ec008c|bold
+b. Prennent-ils leurs affaires ?;HypatiaSansPro;13;#231f20;regular;b.|HypatiaSansPro|13|#ec008c|bold
+c. Allez-vous ensemble à l’école ?;HypatiaSansPro;13;#231f20;regular;c.|HypatiaSansPro|13|#ec008c|bold
+d. Font-ils la sieste ?;HypatiaSansPro;13;#231f20;regular;d.|HypatiaSansPro|13|#ec008c|bold
+e. Partent-ils ensemble ?;HypatiaSansPro;13;#231f20;regular;e.|HypatiaSansPro|13|#ec008c|bold
+f. Mangeons-nous à midi ?;HypatiaSansPro;13;#231f20;regular;f.|HypatiaSansPro|13|#ec008c|bold
+Un élève a souligné 3 phrases. Quelle;HypatiaSansPro;13;#231f20;bold;
+était la consigne à ton avis ?;HypatiaSansPro;13;#231f20;bold;
+a. Qui es-tu ?;HypatiaSansPro;13;#231f20;regular;était|HypatiaSansPro|13|#ec008c|bold||a.|HypatiaSansPro|13|#ec008c|bold
+b. Où est le chat ?;HypatiaSansPro;13;#231f20;regular;b.|HypatiaSansPro|13|#ec008c|bold
+c. Allons à la piscine.;HypatiaSansPro;13;#231f20;regular;c.|HypatiaSansPro|13|#ec008c|bold
+d. Pourquoi êtes-vous fâchés ?;HypatiaSansPro;13;#231f20;regular;d.|HypatiaSansPro|13|#ec008c|bold
+e. Vous regardez des dessins animés.;HypatiaSansPro;13;#231f20;regular;e.|HypatiaSansPro|13|#ec008c|bold
+Défi langue;FrankfurterSHOP;10;#ffffff;medium;
+9 Écris une ou deux phrases;HypatiaSansPro;13;#231f20;bold;9 |HelveticaNeueLTStd|11.6767|#ffffff|regular
+déclaratives pour décrire le dessin de;HypatiaSansPro;13;#231f20;bold;
+l’exercice 8.;HypatiaSansPro;13;#231f20;bold;
+5 Écris ces phrases interrogatives;HypatiaSansPro;13;#231f20;bold;5 |HelveticaNeueLTStd|11.6767|#ffffff|regular||à||0|#000000|regular
+à la 3 e personne du pluriel.;HypatiaSansPro;13;#231f20;bold;
+Va-t-elle à l’école ? ➞ Vont-elles à l’école ?;HypatiaSansPro;12;#c40075;bold;
+a. Est-il en avance ?;HypatiaSansPro;13;#231f20;regular;a.|HypatiaSansPro|13|#ec008c|bold
+b. A-t-elle faim ?;HypatiaSansPro;13;#231f20;regular;b.|HypatiaSansPro|13|#ec008c|bold
+c. Fait-il la cuisine ?;HypatiaSansPro;13;#231f20;regular;c.|HypatiaSansPro|13|#ec008c|bold
+d. Mange-t-elle du miel ?;HypatiaSansPro;13;#231f20;regular;d.|HypatiaSansPro|13|#ec008c|bold
+6;HelveticaNeueLTStd;11.6767;#ffffff;regular;
+Écris ces phrases à la 3 e personne;HypatiaSansPro;13;#231f20;bold;
+du pluriel.;HypatiaSansPro;13;#231f20;bold;
+a. Est-il malade ?;HypatiaSansPro;13;#231f20;regular;du|HypatiaSansPro|13|#ec008c|bold||a.|HypatiaSansPro|13|#ec008c|bold
+b. Elle a faim.;HypatiaSansPro;13;#231f20;regular;b.|HypatiaSansPro|13|#ec008c|bold
+c. Vous êtes en retard.;HypatiaSansPro;13;#231f20;regular;c.|HypatiaSansPro|13|#ec008c|bold
+d. Utilise-t-elle l’ordinateur ?;HypatiaSansPro;13;#231f20;regular;d.|HypatiaSansPro|13|#ec008c|bold
+7;HelveticaNeueLTStd;11.6767;#ffffff;regular;
+Transforme les phrases;HypatiaSansPro;13;#231f20;bold;
+interrogatives en phrases impératives.;HypatiaSansPro;13;#231f20;bold;
+Sors-tu le chien ?  ➞ S ors le chien.;HypatiaSansPro;12;#c40075;bold;
+➞ S ors le chien !;HypatiaSansPro;12;#c40075;bold;
+a. Viens-tu à la piscine ?;HypatiaSansPro;13;#231f20;regular;a.|HypatiaSansPro|13|#ec008c|bold
+b. Cours-tu vite ?;HypatiaSansPro;13;#231f20;regular;b.|HypatiaSansPro|13|#ec008c|bold
+c. Finis-tu le parcours ?;HypatiaSansPro;13;#231f20;regular;c.|HypatiaSansPro|13|#ec008c|bold
+d. Prends-tu ton manteau ?;HypatiaSansPro;13;#231f20;regular;d.|HypatiaSansPro|13|#ec008c|bold
+8;HelveticaNeueLTStd;11.6767;#ffffff;regular;
+À l'oral;HypatiaSansPro;12;#a4258f;bold;
+Imagine un dialogue;HypatiaSansPro;13;#231f20;bold;
+entre les deux personnages.;HypatiaSansPro;13;#231f20;bold;
+9782210505377_001-144.indb 11;Helvetica;6;#000000;regular;
+28/03/2019 12:17;Helvetica;6;#000000;regular;

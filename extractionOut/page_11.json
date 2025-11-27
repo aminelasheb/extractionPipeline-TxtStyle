@@ -1,0 +1,137 @@
+[
+  {
+    "id": "p11_defi_langue",
+    "type": "exercise",
+    "images": false,
+    "image_type": "none",
+    "properties": {
+      "number": null,
+      "instruction": "Un élève a souligné 3 phrases. Quelle\nétait la consigne à ton avis ?",
+      "labels": [],
+      "statement": "a. Qui es-tu ?\nb. Où est le chat ?\nc. Allons à la piscine.\nd. Pourquoi êtes-vous fâchés ?\ne. Vous regardez des dessins animés.",
+      "hint": null,
+      "example": null,
+      "references": null
+    }
+  },
+  {
+    "id": "p11_ex2",
+    "type": "exercise",
+    "images": false,
+    "image_type": "none",
+    "properties": {
+      "number": "2",
+      "instruction": "Complète les phrases par un point,\nun point d’exclamation ou un point\nd’interrogation.",
+      "labels": [],
+      "statement": "a. Que faites-vous dans le jardin\nb. Nous grimpons aux arbres\nc. Comment t’appelles-tu\nd. Vite, dépêche-toi\ne. Où vas-tu\nf. As-tu froid",
+      "hint": null,
+      "example": null,
+      "references": null
+    }
+  },
+  {
+    "id": "p11_ex3",
+    "type": "exercise",
+    "images": false,
+    "image_type": "none",
+    "properties": {
+      "number": "3",
+      "instruction": "Associe la question à la réponse\nqui correspond.",
+      "labels": [],
+      "statement": "1. Où allez-vous ?\n2. Est-ce qu’il y a école aujourd’hui ?\n3. Qui attends-tu ?\n4. Pourquoi tremble-t-il ?\na. Oui.\nb. Nous allons en ville.\nc. Il a froid.\nd. J’attends Mathias.",
+      "hint": null,
+      "example": null,
+      "references": null
+    }
+  },
+  {
+    "id": "p11_ex4",
+    "type": "exercise",
+    "images": false,
+    "image_type": "none",
+    "properties": {
+      "number": "4",
+      "instruction": "Transforme les phrases\ninterrogatives en phrases déclaratives.",
+      "labels": [],
+      "statement": "a. Vient-elle à la maison ?\nb. Prennent-ils leurs affaires ?\nc. Allez-vous ensemble à l’école ?\nd. Font-ils la sieste ?\ne. Partent-ils ensemble ?\nf. Mangeons-nous à midi ?",
+      "hint": null,
+      "example": "Vas-tu au cinéma ? ➞ Tu vas au cinéma.",
+      "references": null
+    }
+  },
+  {
+    "id": "p11_ex5",
+    "type": "exercise",
+    "images": false,
+    "image_type": "none",
+    "properties": {
+      "number": "5",
+      "instruction": "Écris ces phrases interrogatives\nà la 3 e personne du pluriel.",
+      "labels": [],
+      "statement": "a. Est-il en avance ?\nb. A-t-elle faim ?\nc. Fait-il la cuisine ?\nd. Mange-t-elle du miel ?",
+      "hint": null,
+      "example": "Va-t-elle à l’école ? ➞ Vont-elles à l’école ?",
+      "references": null
+    }
+  },
+  {
+    "id": "p11_ex6",
+    "type": "exercise",
+    "images": false,
+    "image_type": "none",
+    "properties": {
+      "number": "6",
+      "instruction": "Écris ces phrases à la 3 e personne\ndu pluriel.",
+      "labels": [],
+      "statement": "a. Est-il malade ?\nb. Elle a faim.\nc. Vous êtes en retard.\nd. Utilise-t-elle l’ordinateur ?",
+      "hint": null,
+      "example": null,
+      "references": null
+    }
+  },
+  {
+    "id": "p11_ex7",
+    "type": "exercise",
+    "images": false,
+    "image_type": "none",
+    "properties": {
+      "number": "7",
+      "instruction": "Transforme les phrases\ninterrogatives en phrases impératives.",
+      "labels": [],
+      "statement": "a. Viens-tu à la piscine ?\nb. Cours-tu vite ?\nc. Finis-tu le parcours ?\nd. Prends-tu ton manteau ?",
+      "hint": null,
+      "example": "Sors-tu le chien ? ➞ S ors le chien.\n➞ S ors le chien !",
+      "references": null
+    }
+  },
+  {
+    "id": "p11_ex8",
+    "type": "exercise",
+    "images": true,
+    "image_type": "single",
+    "properties": {
+      "number": "8",
+      "instruction": "Imagine un dialogue\nentre les deux personnages.",
+      "labels": [],
+      "statement": "\\image{p11c0}",
+      "hint": null,
+      "example": null,
+      "references": null
+    }
+  },
+  {
+    "id": "p11_ex9",
+    "type": "exercise",
+    "images": false,
+    "image_type": "none",
+    "properties": {
+      "number": "9",
+      "instruction": "Écris une ou deux phrases\ndéclaratives pour décrire le dessin de\nl’exercice 8.",
+      "labels": [],
+      "statement": null,
+      "hint": null,
+      "example": null,
+      "references": null
+    }
+  }
+]

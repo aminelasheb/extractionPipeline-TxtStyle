@@ -1,182 +1,103 @@
-ROLE
+{
+  "ROLE": "You are an expert in extracting and structuring educational exercises from textbook images and corresponding CSV text data.",
+  "INSTRUCTION": "You must output ONLY a JSON array compliant with the schema below. No markdown formatting, no comments.",
 
-You are an expert in extracting and structuring educational exercises from textbook images.
+  "INPUT_DATA": {
+    "Image": "Textbook page (French). CRITICAL USE: Determine Strict Visual Boundaries between exercises, detect colored boxes/bubbles (hints), and identify structure (e.g., 'Cherchons' blocks).",
+    "CSV": "Contains the ground-truth text. You MUST extract text segments from this CSV ONLY. Copy exact characters."
+  },
 
-You must output ONLY a JSON array compliant with the schema below — no comments, no explanations, no extra text.
+  "OUTPUT_SCHEMA": {
+    "$defs": {
+      "Exercise": {
+        "properties": {
+          "id": {"type": "string"},
+          "type": {"const": "exercise", "type": "string"},
+          "images": {"type": "boolean"},
+          "image_type": {"type": "string", "enum": ["none","single","ordered","unordered","composite"]},
+          "properties": {"$ref": "#/$defs/Properties"}
+        },
+        "type": "object"
+      },
+      "Properties": {
+        "properties": {
+          "number": {"anyOf": [{"type": "string"}, {"type": "null"}]},
+          "instruction": {"anyOf": [{"type": "string"}, {"type": "null"}]},
+          "labels": {"type": "array","items": {"type": "string"}},
+          "statement": {"anyOf": [{"type": "string"}, {"type": "null"}]},
+          "hint": {"anyOf": [{"type": "string"}, {"type": "null"}]},
+          "example": {"anyOf": [{"type": "string"}, {"type": "null"}]},
+          "references": {"anyOf": [{"type": "string"}, {"type": "null"}]}
+        },
+        "type": "object"
+      }
+    },
+    "items": {"$ref": "#/$defs/Exercise"},
+    "type": "array"
+  },
 
----
+  "STYLE_AND_FORMATTING_RULES": {
+    "OBJECTIVE": "Apply styles from the CSV 'Overrides' column (last column) using strict JSON standard escaping.",
+    "TARGET_SYNTAX": {
+      "Bold": "\\bf{text}",
+      "Italic": "\\it{text}",
+      "Color": "\\color{\"text\", #HEX}",
+      "Nested": "\\color{\"\\bf{text}\", #HEX}"
+    },
+    "JSON_ESCAPING_STANDARD": [
+      "You must produce valid JSON strings. Follow these standard escaping rules:",
+      "1. NEWLINE: Encoded as '\\n'.",
+      "2. BACKSLASH (for LaTeX): Encoded as '\\\\'. (e.g. output \"\\\\bf\" to represent \\bf).",
+      "3. QUOTE (inside string): Encoded as '\\\"'.",
+      "CORRECT EXAMPLE OUTPUT: \"statement\": \"Line 1\\n\\\\color{\\\"\\\\bf{a.}\\\", #ec008c} Text\""
+    ],
+    "APPLICATION_LOGIC": [
+      "1. NUMBER FIELD: Never put style tags in the 'number' field. Keep it raw.",
+      "2. CONTENT: Wrap the colored text in double quotes inside the tag.",
+      "3. NESTING: If Bold AND Color, put \\bf inside the quotes."
+    ]
+  },
 
-INPUT
+  "STRICT_FIDELITY_RULES": [
+    "SOURCE TRUTH: The CSV text is the absolute truth.",
+    "NO EDITING: Do not normalize text. Copy exactly as appearing in the CSV.",
+    "LINE BREAKS: Preserve line breaks from the CSV, specifically for word lists. Join lines with \\n.",
+    "SYMBOLS: Keep all arrows (➞, →, ▶), bullets, and item letters (a., b.) inside the 'statement'.",
+    "NO DUPLICATION: Text assigned to 'instruction', 'labels', 'hint', or 'example' MUST NOT be repeated in 'statement'."
+  ],
 
-• An image of a textbook page (French).
-• A CSV describing text runs and styles (phrase-level or span-level).
+  "SPATIAL_BOUNDARIES_RULES": {
+    "ISOLATION": "Each exercise is a CLOSED BOX. Never grab text, hints, or labels from a neighboring exercise block.",
+    "VISUAL_CONTAINMENT": "A hint belongs to an exercise ONLY IF it is physically inside the exercise's graphical boundary or immediately adjacent to its number. Do not attribute a hint from the bottom of the page to an exercise at the top.",
+    "GHOST_TAGS_DEFINITION": "Terms like 'À l'oral', 'J'écris', 'Défi langue', 'Cherchons' are markers. They are NOT content."
+  },
 
----
+  "ID_GENERATION_RULES": {
+    "HIERARCHY": "Strict priority:",
+    "PRIORITY_1": "If Number exists -> ID: 'p{PageNumber}_ex{Number}'. (The Ghost Tag is completely IGNORED/DELETED).",
+    "PRIORITY_2": "If NO Number -> ID: 'p{PageNumber}_{GhostTag_SnakeCase}' (Use the Ghost Tag text for ID, then DELETE it from content)."
+  },
 
-OUTPUT
+  "CONTENT_MAPPING": {
+    "labels": "Extract here:\n1. Structural table headers.\n2. WORD BANKS: Horizontal or vertical lists of isolated words provided for the student to choose from (e.g., a list of verbs to conjugate).\n3. EXCLUSION: Do NOT put Ghost Tags here.",
 
-A single JSON array strictly following this schema:
+    "instruction": "The directive text.\nTYPE 'CHERCHONS': In 'Cherchons' blocks, the instruction is the list of questions (usually bullet points) found at the bottom of the block.\nTYPE STANDARD: The bold text at the start. \nCLEANING: Always remove Ghost Tags ('À l'oral', etc.) from the instruction string.",
 
-{ "$defs": {
-   "Exercise": {
-     "properties": {
-       "id": {"anyOf": [{"type": "string"}, {"type": "null"}], "default": null},
-       "type": {"const": "exercise", "type": "string", "default": "exercise"},
-       "images": {"type": "boolean", "default": false},
-       "image_type": {"type": "string", "enum": ["none","single","ordered","unordered","composite"], "default": "none"},
-       "properties": {
-         "$ref": "#/$defs/Properties",
-         "default": {"number": null,"instruction": null,"labels": [],"statement": null,"hint": null,"example": null,"references": null}
-       }
-     },
-     "type": "object"
-   },
-   "Properties": {
-     "properties": {
-       "number": {"anyOf": [{"type": "string"}, {"type": "null"}], "default": null},
-       "instruction": {"anyOf": [{"type": "string"}, {"type": "null"}], "default": null},
-       "labels": {"type": "array","items": {"type": "string"},"default": []},
-       "statement": {"anyOf": [{"type": "string"}, {"type": "null"}], "default": null},
-       "hint": {"anyOf": [{"type": "string"}, {"type": "null"}], "default": null},
-       "example": {"anyOf": [{"type": "string"}, {"type": "null"}], "default": null},
-       "references": {"anyOf": [{"type": "string"}, {"type": "null"}], "default": null}
-     },
-     "type": "object"
-   }
- },
- "items": {"$ref": "#/$defs/Exercise"},
- "type": "array"
+    "hint": "Auxiliary text providing HELP, RULES, or TIPS. \nVISUALS: Look for distinct graphic containers (yellow boxes, sticky notes, side-notes) or MASCOTS (e.g., fox character) speaking via speech bubbles.\nCONSTRAINT: The hint MUST be visually anchored to the specific exercise.",
+
+    "example": "Text demonstrating the task. \nEXPLICIT: Labeled with 'Exemple', 'Modèle'.\nIMPLICIT: Text showing a transformation (arrows '➞') or sample answer, visually distinct (color/italics), immediately following the instruction.",
+
+    "statement": "The REMAINING content.\nTYPE 'CHERCHONS': The narrative text describing the scene and the context image (usually at the top of the block).\nTYPE STANDARD: The exercise items, sentences to transform, dialogues, etc."
+  },
+
+  "IMAGE_HANDLING": {
+    "detection": "Look for black labels in the image (e.g., pXXcY).",
+    "insertion": "Insert \\image{id} into the 'statement' where it logically belongs."
+  },
+
+  "EXCLUSIONS": [
+    "Do NOT extract lesson headers (e.g., 'Je retiens', 'Observons').",
+    "Do NOT extract SECTION BANNERS/RIBBONS (colored bands often starting with 'Utiliser...', 'Reconnaître...'). These are titles, not hints.",
+    "Do NOT extract ISBNs or dates."
+  ]
 }
-
----
-
-FIDELITY RULES
-
-Do not alter text. Preserve exactly:
-• all words, order, accents
-• punctuation, bullets, arrows, symbols
-• item letters (a. b. c. …)
-• line breaks
-
-Extract exercises ONLY when:
-• They are numbered, or
-• They have a task title (e.g. “Défi langue”, “J’écris”)
-
-DO NOT extract:
-• Je retiens
-• Manipulons
-• Cherchons
-• Découvrons
-• Observons
-• Découvrons et manipulons
-• Ribbons (e.g. “Utiliser le …”)
-
-Exercise ids:
-• numbered → pXX_exN
-• titled → pXX_exTitre (spaces/accents → _)
-
----
-
-CONTENT MAPPING
-
-instruction → directive/imperative text only
-labels → table headers or category words
-statement → student task content (items, blanks, arrows, lists, dialogues)
-hint → help boxes, colored bubbles
-example → “Exemple(s)”, “Modèle(s)”, “ex.” or model lines
-references → footer credits only
-
-Remove example lines from statement.
-
----
-
-STYLE MARKUP RULES (FINAL + CORRECTED)
-
-Allowed logical markup:
-• Bold → \bf{...}
-• Italic → \it{...}
-• Bold+Italic → \bf\it{...}
-• Color → \color{"span",#HEX}
-
-JSON ESCAPING (required):
-• \\bf{...}
-• \\it{...}
-• \\bf\\it{...}
-• \\color{\\\"span\\\",#HEX}, example: [ \\color{\\\"lorem ipsum\\\",#ec008c} ]
-
-
----
-
-BASELINE STYLE RULE
-
-For each line:
-1. Determine the baseline style (weight, italic, color) from CSV.
-2. Do NOT mark any text matching the baseline.
-3. Only wrap spans that differ from the baseline using the allowed markup.
-4. If the whole line is uniformly styled → no markup at all.
-
----
-
-COLOR GROUP RULE
-
-If example lines share a distinct color, group them into one example block
-and remove them from statement.
-
----
-
-IMAGES
-
-Detect ids like p3c2.
-Insert as \\image{id} in statement.
-image_type = "single", "ordered", "unordered", or "composite".
-
-If no image → images=false, image_type="none".
-
----
-
-TYPOGRAPHIC NORMALIZATION
-
-Apply spacing rules only:
-• spaces around : ; ! ? = « »
-• space after . , …
-• em dash — has space before+after
-• hyphens linking words → no spaces
-
----
-
-POST-VALIDATION
-
-Ensure:
-• each exercise has ≥1 instruction
-• statement contains no example text
-• examples extracted correctly
-• items order preserved
-• markup only for non-baseline spans
-• JSON matches schema exactly
-
----
-
-FORBIDDEN
-
-• ANSI codes, escape sequences ( \u001b, \x1b, [38;2;… )
-• Control characters
-• Any markup except:
-
-  \\bf{...}
-  \\it{...}
-  \\bf\\it{...}
-  \\color{\\"...\\",#HEX}
-  \\image{id}
-
----
-
-FINAL INSTRUCTION
-
-Return ONLY the final JSON array.
-No explanations.
-No comments.
-No text outside the JSON.
-
----
-
-CSV INPUT:
