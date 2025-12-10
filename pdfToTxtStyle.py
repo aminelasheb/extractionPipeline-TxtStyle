@@ -99,8 +99,8 @@ def export_phrase_compact_from_doc(doc: fitz.Document, out_csv: str, pages: Iter
 
                     for s in l.get("spans", []):
                         t = s.get("text", "")
-                        if not t.strip():
-                            continue
+                        if t == "":
+                            continue  
                         spans.append({
                             "bbox": tuple(s["bbox"]),
                             "font": s.get("font", ""),
@@ -113,7 +113,8 @@ def export_phrase_compact_from_doc(doc: fitz.Document, out_csv: str, pages: Iter
                     if not spans:
                         continue
 
-                    phrase = " ".join(" ".join(texts).split())
+                    raw_phrase = "".join(texts)
+                    phrase = raw_phrase
                     fam_d, tag_d, size_d, col_d = weighted_dominant_style(spans)
 
                     overrides = []
